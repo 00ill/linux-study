@@ -1,0 +1,3 @@
+This is a sample text file.
+Line 2 of the file.
+Hello from your C program!
