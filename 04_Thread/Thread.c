@@ -19,6 +19,7 @@ void* producer(void* arg) {
         pthread_mutex_lock(&mutex);
 
         while (count == BUFFER_SIZE) {
+            //버퍼가 가득 찼으면 cond_produce 시그널 대기
             pthread_cond_wait(&cond_produce, &mutex);
         }
 
@@ -41,6 +42,7 @@ void* consumer(void* arg) {
         pthread_mutex_lock(&mutex);
 
         while (count == 0) {
+            //버퍼가 비어있으면 대기
             pthread_cond_wait(&cond_consume, &mutex);
         }
 
@@ -60,13 +62,17 @@ void* consumer(void* arg) {
 
 int main() {
     pthread_t prod, cons;
-
+    //스레드 생성
+    //*thread, *attr, func(void*, void*), arg
     pthread_create(&prod, NULL, producer, NULL);
     pthread_create(&cons, NULL, consumer, NULL);
-
+    
+    //스레드 종료까지 대기
+    //ID, 반환값을 받을 포인터, (void*)42같은 값을 받을 수 있음
     pthread_join(prod, NULL);
     pthread_join(cons, NULL);
 
     return 0;
 }
+
 
