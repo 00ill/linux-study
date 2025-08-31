@@ -1,10 +1,18 @@
+/* 1.CPU_Usage
+ * 2.Memory_Usage
+ * 3.Process list & stat
+ * 4.Realtime print
+ * 5.User Interaction
+ */
+
+#include <math.h>
 #include <pthread.h>
+#include <signal.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
 #include <unistd.h>
-#include <signal.h>
 
 volatile sig_atomic_t stop_flag = 0;
 void signal_handler(int sig)
@@ -46,9 +54,6 @@ void* CPU_Usage(void* arg)
         char* token = strtok(stat_buffer, delim);
         unsigned char index = 0;
         static unsigned long long cpu_times[2][8];
-        // Make Once Read File
-        // else
-        // Move Data
         static unsigned char Init_fg = 0;
         if (Init_fg == 0)
         {
@@ -99,13 +104,55 @@ void* CPU_Usage(void* arg)
     }
     return NULL;
 }
+/*
+ * Used = MemTotal - (MemFree + Buffers _ Cached)
+ */
+#define MemTotal 0
+#define MemFree 1
+#define Buffers 3
+#define Cached 4
+void* Memory_Usage(void* arg)
+{
+    while (!stop_flag)
+    {
+        FILE* meminfo = fopen("/proc/meminfo", "r");
+        char mem_buffer[256];
+        unsigned long long mem_arr[5];
+        char* token;
+        const char delim[] = " ";
+        for (int i = 0; i <= Cached; i++)
+        {
+            fgets(mem_buffer, sizeof(mem_buffer), meminfo);
+            token = strtok(mem_buffer, delim);
+            token = strtok(NULL, delim);
+            mem_arr[i] = strtoull(token, NULL, 10);
+        }
+        unsigned long long mem_used =
+            mem_arr[MemTotal] - (mem_arr[MemFree] + mem_arr[Buffers] + mem_arr[Cached]);
+        double mem_usage = ((double)mem_used * 100 / mem_arr[MemTotal]);
+        printf("Memory Usage(%%) : %.2f%%\n", mem_usage);
+        fclose(meminfo);
+        sleep(1);
+    }
+    return NULL;
+}
+/*
+ * number dir is pid of Process
+ * In Folder, open stat file read process state, running time, memory used.
+ * make List
+ */
 
+/* Using ncurses library 
+ * Update terminal
+ */
 int main(void)
 {
     signal(SIGINT, signal_handler);
     signal(SIGTERM, signal_handler);
-    pthread_t cpu_thread;
+    pthread_t cpu_thread, mem_thread;
     pthread_create(&cpu_thread, NULL, CPU_Usage, NULL);
+    pthread_create(&mem_thread, NULL, Memory_Usage, NULL);
     pthread_join(cpu_thread, NULL);
+    pthread_join(mem_thread, NULL);
     return 0;
 }
