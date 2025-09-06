@@ -35,7 +35,7 @@ void* Memory_Usage(void* arg)
         unsigned long long mem_used =
             mem_arr[MemTotal] - (mem_arr[MemFree] + mem_arr[Buffers] + mem_arr[Cached]);
         double mem_usage = ((double)mem_used * 100 / mem_arr[MemTotal]);
-        printf("Memory Usage(%%) : %.2f%%\n", mem_usage);
+        // printf("Memory Usage(%%) : %.2f%%\n", mem_usage);
         fclose(meminfo);
         sleep(1);
     }

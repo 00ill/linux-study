@@ -11,7 +11,7 @@
 #include <unistd.h>
 
 extern volatile sig_atomic_t stop_flag;
-
+double cpu_usage = 0;
 #define USER 1
 #define NICE 2
 #define SYSTEM 3
@@ -82,9 +82,9 @@ void* CPU_Usage(void* arg)
         }
         delta_total = total[1] - total[0];
         delta_idle = cpu_times[1][IDLE] - cpu_times[0][IDLE];
-        double cpu_usage = (double)(delta_total - delta_idle) * 100 / delta_total;
+        cpu_usage = (double)(delta_total - delta_idle) * 100 / delta_total;
 
-        printf("%.2f%%\n", cpu_usage);
+        // printf("%.2f%%\n", cpu_usage);
     }
     return NULL;
 }

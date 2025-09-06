@@ -1,6 +1,6 @@
 /*Main.c*/
-// #include "display.h"
-#define TEST 1
+#include "display.h"
+#define TEST 1 
 #if (TEST)
 #include "cpu_usage.h"
 #include "memory_usage.h"
@@ -9,13 +9,13 @@
 #include <dirent.h>
 #include <math.h>
 #include <pthread.h>
-#include <signal.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
 #include <unistd.h>
 #endif
+#include <signal.h>
 volatile sig_atomic_t stop_flag = 0;
 
 void signal_handler(int sig)
@@ -31,9 +31,11 @@ int main(void)
     pthread_create(&cpu_thread, NULL, CPU_Usage, NULL);
     pthread_create(&mem_thread, NULL, Memory_Usage, NULL);
     pthread_create(&list_thread, NULL, Process_List, NULL);
+#endif
+    sleep(2);
+    Tutorial();
     pthread_join(cpu_thread, NULL);
     pthread_join(mem_thread, NULL);
     pthread_join(list_thread, NULL);
-#endif
     return 0;
 }

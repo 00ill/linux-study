@@ -11,6 +11,7 @@
 #include <unistd.h>
 
 extern volatile sig_atomic_t stop_flag;
+process_data_t process_data[DATA_COUNT] = {{0, 0}};
 
 static int is_Number(char* str)
 {
@@ -33,9 +34,13 @@ void* Process_List(void* arg)
     }
     struct dirent* entry;
     FILE* file;
+    int i = 0;
     while ((entry = readdir(proc)) != NULL)
     {
-        int i = 0;
+        if (i > 99)
+        {
+            i = 99;
+        }
         if (is_Number(entry->d_name))
         {
             char dir_stat[1024];
@@ -75,10 +80,18 @@ void* Process_List(void* arg)
                     long long memory_usage_mb = memory_usage_kb / 1024;
                     if (memory_usage != 0)
                     {
-                        printf("PID : %s, Memory Usage : %llu\n", entry->d_name, memory_usage_mb);
+                        // printf("PID : %s, Memory Usage : %llu\n", entry->d_name,
+                        // memory_usage_mb);
+                        // memcpy(process_data[i].pid, entry->d_name, 256);
+
+                        strncpy(process_data[i].pid, entry->d_name,
+                                sizeof(process_data[i].pid) - 1);
+                        process_data[i].pid[sizeof(process_data[i].pid) - 1] = '\0';
+                        process_data[i].memory_usage = memory_usage_mb;
                     }
-                    //TODO
-                    //Some process memory usage is too big
+                    i++;
+                    // TODO
+                    // Some process memory usage is too big
                     fclose(file);
                 }
             }
