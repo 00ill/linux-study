@@ -88,8 +88,8 @@ void* Process_List(void* arg)
                                 sizeof(process_data[i].pid) - 1);
                         process_data[i].pid[sizeof(process_data[i].pid) - 1] = '\0';
                         process_data[i].memory_usage = memory_usage_mb;
+                        i++;
                     }
-                    i++;
                     // TODO
                     // Some process memory usage is too big
                     fclose(file);
