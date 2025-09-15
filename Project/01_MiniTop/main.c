@@ -32,8 +32,8 @@ int main(void)
     pthread_create(&mem_thread, NULL, Memory_Usage, NULL);
     pthread_create(&list_thread, NULL, Process_List, NULL);
 #endif
-    sleep(2);
-    Tutorial();
+    // sleep(2);
+    // Tutorial();
     pthread_join(cpu_thread, NULL);
     pthread_join(mem_thread, NULL);
     pthread_join(list_thread, NULL);

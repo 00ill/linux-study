@@ -84,7 +84,7 @@ void* CPU_Usage(void* arg)
         delta_idle = cpu_times[1][IDLE] - cpu_times[0][IDLE];
         cpu_usage = (double)(delta_total - delta_idle) * 100 / delta_total;
 
-        // printf("%.2f%%\n", cpu_usage);
+        printf("CPU Usage : %.2f%%\n", cpu_usage);
     }
     return NULL;
 }
