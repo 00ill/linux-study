@@ -71,9 +71,9 @@ void* Process_List(void* arg)
                         token = strtok(NULL, " ");
                         field_num++;
                     }
-                    printf("PID: %s, State: %c, utime: %lu, stime: %lu, RSS: %ld\n",
-                    entry->d_name,
-                           state, utime, stime, rss);
+                    // // printf("PID: %s, State: %c, utime: %lu, stime: %lu, RSS: %ld\n",
+                    // entry->d_name,
+                    //        state, utime, stime, rss);
                     long int page_size = sysconf(_SC_PAGE_SIZE);
                     long long memory_usage = rss * page_size;
                     long long memory_usage_kb = memory_usage / 1024;

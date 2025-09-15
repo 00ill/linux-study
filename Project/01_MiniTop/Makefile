@@ -1,6 +1,6 @@
 CC = gcc
 TARGET = MiniTop
-OBJS = main.o cpu_usage.o memory_usage.o process_list.o
+OBJS = main.o cpu_usage.o memory_usage.o process_list.o display.o
 CFLAGS = -lncurses
 
 all: $(TARGET)
