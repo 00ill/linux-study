@@ -1,6 +1,5 @@
 #include "display.h"
 #include "process_list.h"
-#include <ncurses.h>
 #include <signal.h>
 #include <strings.h>
 #include <unistd.h>
