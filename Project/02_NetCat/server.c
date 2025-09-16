@@ -19,6 +19,7 @@ int main(void)
     
     bind(server, (struct sockaddr*)&(server_addr), sizeof(server_addr));
     listen(server, 5); //Maximum number of queued connections is 5
+    
     int accect_fd;
     accect_fd = accept(server, NULL, NULL);
     if(accect_fd == -1)
@@ -29,7 +30,9 @@ int main(void)
     else
     {
         printf("Connection accepted, FD : %d\n", accect_fd);
+        char buffer[1024] = {0,};
+        recv(accect_fd, buffer, 1024, 0);
+        printf("Message from client : %s\n", buffer);
     }
-    
     return 0;
 }

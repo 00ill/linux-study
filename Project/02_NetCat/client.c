@@ -14,7 +14,12 @@ int main(int argc, char *argv[])
     server_addr.sin_family = AF_INET; //IPv4
     server_addr.sin_port = htons(8080); //Port number, converted to network byte
     server_addr.sin_addr.s_addr = INADDR_ANY; //Accept connections from any IP address
-    connect(client, (struct sockaddr*)&(server_addr), sizeof(server_addr));
+    if(connect(client, (struct sockaddr*)&(server_addr), sizeof(server_addr)) == -1)
+    {
+        perror("Failed to connect to server");
+        return -1;
+    }
+    send(client, argv[1], 13, 0);
 
     return 0;
 }
