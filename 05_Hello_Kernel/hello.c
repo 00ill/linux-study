@@ -6,6 +6,8 @@ MODULE_LICENSE("GPL");
 MODULE_AUTHOR("00ill");
 MODULE_DESCRIPTION("Hello Kernel");
 
+//KERN_INFO -> mean log level
+//dmesg --level
 static int __init my_hello_init(void)
 {
     printk(KERN_INFO "Hello, Kernel World!\n");
