@@ -22,8 +22,6 @@ static int notify_param(const char *val, const struct kernel_param *kp)
     int ret = param_set_int(val, kp); // Update the parameter using helper
     // param_set_int
     // takees a string input from user space and converts to int to store module parameter var
-    printk(KERN_INFO "Callback function called : typed  = %s", val);
-    printk(KERN_INFO "ret value : %d", ret);
     if(ret == 0)
     {
         printk(KERN_INFO "Callback function called : new cb_value = %d\n", cb_value);
