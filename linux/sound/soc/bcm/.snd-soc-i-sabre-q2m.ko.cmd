@@ -1,0 +1,1 @@
+savedcmd_sound/soc/bcm/snd-soc-i-sabre-q2m.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/soc/bcm/snd-soc-i-sabre-q2m.ko sound/soc/bcm/snd-soc-i-sabre-q2m.o sound/soc/bcm/snd-soc-i-sabre-q2m.mod.o .module-common.o

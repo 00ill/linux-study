@@ -1,0 +1,1 @@
+savedcmd_drivers/media/tuners/tea5761.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/tuners/tea5761.ko drivers/media/tuners/tea5761.o drivers/media/tuners/tea5761.mod.o .module-common.o

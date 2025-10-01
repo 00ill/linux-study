@@ -1,0 +1,1 @@
+savedcmd_drivers/md/persistent-data/dm-persistent-data.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/md/persistent-data/dm-persistent-data.ko drivers/md/persistent-data/dm-persistent-data.o drivers/md/persistent-data/dm-persistent-data.mod.o .module-common.o

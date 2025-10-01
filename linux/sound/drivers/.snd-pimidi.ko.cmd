@@ -1,0 +1,1 @@
+savedcmd_sound/drivers/snd-pimidi.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/drivers/snd-pimidi.ko sound/drivers/snd-pimidi.o sound/drivers/snd-pimidi.mod.o .module-common.o

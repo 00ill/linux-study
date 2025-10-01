@@ -1,0 +1,1 @@
+savedcmd_drivers/mmc/host/mmc_spi.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/mmc/host/mmc_spi.ko drivers/mmc/host/mmc_spi.o drivers/mmc/host/mmc_spi.mod.o .module-common.o

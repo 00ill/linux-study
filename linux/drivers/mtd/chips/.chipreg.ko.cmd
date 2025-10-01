@@ -1,0 +1,1 @@
+savedcmd_drivers/mtd/chips/chipreg.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/mtd/chips/chipreg.ko drivers/mtd/chips/chipreg.o drivers/mtd/chips/chipreg.mod.o .module-common.o

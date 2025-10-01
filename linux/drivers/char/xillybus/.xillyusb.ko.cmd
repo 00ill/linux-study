@@ -1,0 +1,1 @@
+savedcmd_drivers/char/xillybus/xillyusb.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/char/xillybus/xillyusb.ko drivers/char/xillybus/xillyusb.o drivers/char/xillybus/xillyusb.mod.o .module-common.o

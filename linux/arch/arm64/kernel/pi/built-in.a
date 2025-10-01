@@ -1,0 +1,16 @@
+!<thin>
+//                                              118       `
+idreg-override.pi.o/
+map_kernel.pi.o/
+map_range.pi.o/
+lib-fdt.pi.o/
+lib-fdt_ro.pi.o/
+relocate.pi.o/
+kaslr_early.pi.o/
+/0              0           0     0     644     8960      `
+/21             0           0     0     644     118760    `
+/38             0           0     0     644     2248      `
+/54             0           0     0     644     3832      `
+/68             0           0     0     644     11112     `
+/85             0           0     0     644     1416      `
+/100            0           0     0     644     1856      `

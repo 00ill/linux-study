@@ -1,0 +1,1 @@
+savedcmd_sound/soc/bcm/snd-soc-justboom-both.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/soc/bcm/snd-soc-justboom-both.ko sound/soc/bcm/snd-soc-justboom-both.o sound/soc/bcm/snd-soc-justboom-both.mod.o .module-common.o

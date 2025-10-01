@@ -1,0 +1,1 @@
+savedcmd_drivers/media/usb/dvb-usb/dvb-usb-m920x.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/usb/dvb-usb/dvb-usb-m920x.ko drivers/media/usb/dvb-usb/dvb-usb-m920x.o drivers/media/usb/dvb-usb/dvb-usb-m920x.mod.o .module-common.o

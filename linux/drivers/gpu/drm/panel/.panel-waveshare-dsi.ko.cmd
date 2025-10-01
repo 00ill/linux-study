@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/panel/panel-waveshare-dsi.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/panel/panel-waveshare-dsi.ko drivers/gpu/drm/panel/panel-waveshare-dsi.o drivers/gpu/drm/panel/panel-waveshare-dsi.mod.o .module-common.o

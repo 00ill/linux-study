@@ -1,0 +1,1 @@
+savedcmd_drivers/firmware/rp1-fw.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/firmware/rp1-fw.ko drivers/firmware/rp1-fw.o drivers/firmware/rp1-fw.mod.o .module-common.o

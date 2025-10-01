@@ -1,0 +1,1 @@
+savedcmd_net/netfilter/xt_TCPOPTSTRIP.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/netfilter/xt_TCPOPTSTRIP.ko net/netfilter/xt_TCPOPTSTRIP.o net/netfilter/xt_TCPOPTSTRIP.mod.o .module-common.o

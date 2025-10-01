@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/gadget/function/usb_f_uvc.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/usb/gadget/function/usb_f_uvc.ko drivers/usb/gadget/function/usb_f_uvc.o drivers/usb/gadget/function/usb_f_uvc.mod.o .module-common.o

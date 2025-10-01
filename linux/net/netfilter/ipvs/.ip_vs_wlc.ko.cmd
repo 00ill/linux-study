@@ -1,0 +1,1 @@
+savedcmd_net/netfilter/ipvs/ip_vs_wlc.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/netfilter/ipvs/ip_vs_wlc.ko net/netfilter/ipvs/ip_vs_wlc.o net/netfilter/ipvs/ip_vs_wlc.mod.o .module-common.o

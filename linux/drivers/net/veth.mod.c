@@ -1,0 +1,125 @@
+#include <linux/module.h>
+#include <linux/export-internal.h>
+#include <linux/compiler.h>
+
+MODULE_INFO(name, KBUILD_MODNAME);
+
+__visible struct module __this_module
+__section(".gnu.linkonce.this_module") = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+
+
+static const struct modversion_info ____versions[]
+__used __section("__versions") = {
+	{ 0x9d12f712, "rtnl_link_register" },
+	{ 0x1e96f43d, "__cpu_possible_mask" },
+	{ 0x9f46ced8, "__sw_hweight64" },
+	{ 0x35decc18, "unregister_netdevice_queue" },
+	{ 0xb8651960, "netif_set_real_num_tx_queues" },
+	{ 0xffecfcd6, "netif_set_real_num_rx_queues" },
+	{ 0xdd3b7072, "ether_setup" },
+	{ 0xaa88432a, "netif_set_tso_max_size" },
+	{ 0x7aa1756e, "kvfree" },
+	{ 0x8d522714, "__rcu_read_lock" },
+	{ 0x2469810f, "__rcu_read_unlock" },
+	{ 0xc1a07f40, "__xdp_rxq_info_reg" },
+	{ 0xcce93fc1, "xdp_rxq_info_reg_mem_model" },
+	{ 0xe2835923, "netif_napi_add_weight" },
+	{ 0x16529856, "xdp_rxq_info_unreg" },
+	{ 0x4c88a838, "__netif_napi_del" },
+	{ 0x609f1c7e, "synchronize_net" },
+	{ 0x5338184f, "ethtool_sprintf" },
+	{ 0xf0fdf6cb, "__stack_chk_fail" },
+	{ 0x476b165a, "sized_strscpy" },
+	{ 0x2e536d3e, "__skb_get_hash_net" },
+	{ 0xdcb764ad, "memset" },
+	{ 0x8fa5a6ee, "dev_fetch_sw_netstats" },
+	{ 0x987c0c99, "rtnl_link_unregister" },
+	{ 0xe732c60b, "xdp_set_features_flag" },
+	{ 0x43569555, "xdp_return_frame" },
+	{ 0xd922c2e5, "sk_skb_reason_drop" },
+	{ 0xc68504d7, "__kvmalloc_node_noprof" },
+	{ 0xd91dbd1f, "xdp_alloc_skb_bulk" },
+	{ 0xdd5d727c, "napi_gro_receive" },
+	{ 0x222aa3d3, "__xdp_build_skb_from_frame" },
+	{ 0xa65c6def, "alt_cb_patch_nops" },
+	{ 0x6dc88bac, "napi_disable" },
+	{ 0xba8fbd64, "_raw_spin_lock" },
+	{ 0xb5b54b34, "_raw_spin_unlock" },
+	{ 0x4c10c0b0, "page_pool_destroy" },
+	{ 0x56faa867, "page_pool_create" },
+	{ 0x31bd7946, "napi_enable" },
+	{ 0x199a1120, "xdp_features_clear_redirect_target" },
+	{ 0xd5308133, "xdp_features_set_redirect_target" },
+	{ 0x828a01bc, "netif_carrier_off" },
+	{ 0xef5f7e8b, "rtnl_nla_parse_ifinfomsg" },
+	{ 0x84823cf3, "nla_strscpy" },
+	{ 0x656e4a6e, "snprintf" },
+	{ 0x25f71fd1, "rtnl_link_get_net" },
+	{ 0x50b4a9b2, "rtnl_create_link" },
+	{ 0x917db7b1, "netif_inherit_tso_max" },
+	{ 0xcf015fa5, "register_netdevice" },
+	{ 0x170425fb, "netdev_update_features" },
+	{ 0x1494dbbb, "rtnl_configure_link" },
+	{ 0x44162dce, "__put_net" },
+	{ 0x24b49baa, "free_netdev" },
+	{ 0x41ed3709, "get_random_bytes" },
+	{ 0xa04864d5, "dev_addr_mod" },
+	{ 0x296695f, "refcount_warn_saturate" },
+	{ 0xf7bbf8be, "napi_schedule_prep" },
+	{ 0x3adfad74, "__napi_schedule" },
+	{ 0x8f4f5b83, "__tracepoint_xdp_bulk_tx" },
+	{ 0x921b07b1, "__cpu_online_mask" },
+	{ 0xf83afca5, "__traceiter_xdp_bulk_tx" },
+	{ 0xf70e4a4d, "preempt_schedule_notrace" },
+	{ 0x832960f, "xdp_convert_zc_to_xdp_frame" },
+	{ 0xbb7195a5, "xdp_warn" },
+	{ 0xffc50605, "netif_carrier_on" },
+	{ 0x122c3a7e, "_printk" },
+	{ 0xf7200217, "xdp_rxq_info_is_reg" },
+	{ 0x291f878c, "bpf_prog_put" },
+	{ 0xe6d2458e, "do_trace_netlink_extack" },
+	{ 0xabd0dc8b, "skb_clone_tx_timestamp" },
+	{ 0x1ff2634c, "__dev_forward_skb" },
+	{ 0xe74443c6, "sock_wfree" },
+	{ 0xb3ee0f7e, "__pskb_pull_tail" },
+	{ 0xd04c1027, "__netif_rx" },
+	{ 0x73507016, "skb_tstamp_tx" },
+	{ 0x8df78ffa, "dev_kfree_skb_any_reason" },
+	{ 0xe5baf85b, "skb_pp_cow_data" },
+	{ 0xf84bd6ee, "bpf_stats_enabled_key" },
+	{ 0x3b814ca, "bpf_dispatcher_xdp_func" },
+	{ 0x146cc88f, "bpf_master_redirect_enabled_key" },
+	{ 0x1b7dcd17, "consume_skb" },
+	{ 0xe94986d6, "sched_clock" },
+	{ 0x94ccb41c, "xdp_do_redirect" },
+	{ 0xc7e4ab35, "xdp_return_buff" },
+	{ 0x2345b7bb, "bpf_warn_invalid_xdp_action" },
+	{ 0x92cb609e, "__tracepoint_xdp_exception" },
+	{ 0x520d3a81, "__traceiter_xdp_exception" },
+	{ 0xc4f8efb6, "eth_type_trans" },
+	{ 0x15adbbf8, "xdp_master_redirect" },
+	{ 0x2e7b0048, "netif_receive_skb" },
+	{ 0xbbae820d, "pskb_expand_head" },
+	{ 0x36184085, "napi_complete_done" },
+	{ 0xb9681621, "xdp_do_flush" },
+	{ 0xcb0fc076, "passthru_features_check" },
+	{ 0xd4f784c4, "eth_mac_addr" },
+	{ 0x4295cec9, "ethtool_op_get_link" },
+	{ 0xd14e8222, "ethtool_op_get_ts_info" },
+	{ 0x474e54d2, "module_layout" },
+};
+
+MODULE_INFO(depends, "");
+
+
+MODULE_INFO(srcversion, "F3EDF4A9B9CCFE7207E728F");

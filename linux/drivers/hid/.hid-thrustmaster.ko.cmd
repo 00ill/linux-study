@@ -1,0 +1,1 @@
+savedcmd_drivers/hid/hid-thrustmaster.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-thrustmaster.ko drivers/hid/hid-thrustmaster.o drivers/hid/hid-thrustmaster.mod.o .module-common.o

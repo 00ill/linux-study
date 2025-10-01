@@ -1,0 +1,1 @@
+savedcmd_drivers/staging/fbtft/fbtft.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/staging/fbtft/fbtft.ko drivers/staging/fbtft/fbtft.o drivers/staging/fbtft/fbtft.mod.o .module-common.o

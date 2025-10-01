@@ -1,0 +1,1 @@
+savedcmd_drivers/media/pci/hailo/hailo_pci.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/pci/hailo/hailo_pci.ko drivers/media/pci/hailo/hailo_pci.o drivers/media/pci/hailo/hailo_pci.mod.o .module-common.o

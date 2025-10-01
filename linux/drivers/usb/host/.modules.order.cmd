@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/host/modules.order := {   cat drivers/usb/host/dwc_otg/modules.order;   cat drivers/usb/host/dwc_common_port/modules.order;   echo drivers/usb/host/xhci-pci-renesas.o; :; } > drivers/usb/host/modules.order

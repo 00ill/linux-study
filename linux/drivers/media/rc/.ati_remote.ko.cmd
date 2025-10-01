@@ -1,0 +1,1 @@
+savedcmd_drivers/media/rc/ati_remote.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/ati_remote.ko drivers/media/rc/ati_remote.o drivers/media/rc/ati_remote.mod.o .module-common.o

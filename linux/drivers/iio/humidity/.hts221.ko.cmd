@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/humidity/hts221.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/iio/humidity/hts221.ko drivers/iio/humidity/hts221.o drivers/iio/humidity/hts221.mod.o .module-common.o

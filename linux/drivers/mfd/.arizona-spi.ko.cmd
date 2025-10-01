@@ -1,0 +1,1 @@
+savedcmd_drivers/mfd/arizona-spi.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/mfd/arizona-spi.ko drivers/mfd/arizona-spi.o drivers/mfd/arizona-spi.mod.o .module-common.o

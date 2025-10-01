@@ -1,0 +1,1 @@
+savedcmd_drivers/media/tuners/fc2580.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/tuners/fc2580.ko drivers/media/tuners/fc2580.o drivers/media/tuners/fc2580.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/w1/slaves/w1_ds2430.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/w1/slaves/w1_ds2430.ko drivers/w1/slaves/w1_ds2430.o drivers/w1/slaves/w1_ds2430.mod.o .module-common.o

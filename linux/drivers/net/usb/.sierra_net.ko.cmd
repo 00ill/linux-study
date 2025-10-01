@@ -1,0 +1,1 @@
+savedcmd_drivers/net/usb/sierra_net.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/usb/sierra_net.ko drivers/net/usb/sierra_net.o drivers/net/usb/sierra_net.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/input/misc/adxl34x.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/input/misc/adxl34x.ko drivers/input/misc/adxl34x.o drivers/input/misc/adxl34x.mod.o .module-common.o

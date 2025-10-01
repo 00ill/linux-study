@@ -1,0 +1,50 @@
+!<thin>
+//                                              620       `
+zstd_compress_module.o/
+compress/fse_compress.o/
+compress/hist.o/
+compress/huf_compress.o/
+compress/zstd_compress.o/
+compress/zstd_compress_literals.o/
+compress/zstd_compress_sequences.o/
+compress/zstd_compress_superblock.o/
+compress/zstd_double_fast.o/
+compress/zstd_fast.o/
+compress/zstd_lazy.o/
+compress/zstd_ldm.o/
+compress/zstd_opt.o/
+zstd_decompress_module.o/
+decompress/huf_decompress.o/
+decompress/zstd_ddict.o/
+decompress/zstd_decompress.o/
+decompress/zstd_decompress_block.o/
+zstd_common_module.o/
+common/debug.o/
+common/entropy_common.o/
+common/error_private.o/
+common/fse_decompress.o/
+common/zstd_common.o/
+/0              0           0     0     644     11248     `
+/24             0           0     0     644     7560      `
+/49             0           0     0     644     3208      `
+/66             0           0     0     644     15920     `
+/91             0           0     0     644     83520     `
+/117            0           0     0     644     3032      `
+/152            0           0     0     644     7632      `
+/188            0           0     0     644     6632      `
+/225            0           0     0     644     32712     `
+/254            0           0     0     644     32728     `
+/276            0           0     0     644     189744    `
+/298            0           0     0     644     10432     `
+/319            0           0     0     644     46952     `
+/340            0           0     0     644     8768      `
+/366            0           0     0     644     24384     `
+/395            0           0     0     644     4848      `
+/420            0           0     0     644     28848     `
+/450            0           0     0     644     26552     `
+/486            0           0     0     644     3856      `
+/508            0           0     0     644     1160      `
+/524            0           0     0     644     4536      `
+/549            0           0     0     644     6344      `
+/573            0           0     0     644     9200      `
+/598            0           0     0     644     2880      `

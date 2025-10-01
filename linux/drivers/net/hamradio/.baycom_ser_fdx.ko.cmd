@@ -1,0 +1,1 @@
+savedcmd_drivers/net/hamradio/baycom_ser_fdx.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/hamradio/baycom_ser_fdx.ko drivers/net/hamradio/baycom_ser_fdx.o drivers/net/hamradio/baycom_ser_fdx.mod.o .module-common.o

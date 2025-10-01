@@ -1,0 +1,1 @@
+savedcmd_drivers/mtd/parsers/ofpart.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/mtd/parsers/ofpart.ko drivers/mtd/parsers/ofpart.o drivers/mtd/parsers/ofpart.mod.o .module-common.o

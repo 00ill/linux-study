@@ -1,0 +1,1 @@
+savedcmd_drivers/char/broadcom/bcm2835_smi_dev.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/char/broadcom/bcm2835_smi_dev.ko drivers/char/broadcom/bcm2835_smi_dev.o drivers/char/broadcom/bcm2835_smi_dev.mod.o .module-common.o

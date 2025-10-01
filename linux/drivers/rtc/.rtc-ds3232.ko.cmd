@@ -1,0 +1,1 @@
+savedcmd_drivers/rtc/rtc-ds3232.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/rtc/rtc-ds3232.ko drivers/rtc/rtc-ds3232.o drivers/rtc/rtc-ds3232.mod.o .module-common.o

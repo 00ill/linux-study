@@ -1,0 +1,1 @@
+savedcmd_drivers/vhost/vhost_iotlb.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/vhost/vhost_iotlb.ko drivers/vhost/vhost_iotlb.o drivers/vhost/vhost_iotlb.mod.o .module-common.o

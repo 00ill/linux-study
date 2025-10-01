@@ -1,0 +1,1 @@
+savedcmd_drivers/gpio/gpio-pcf857x.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/gpio/gpio-pcf857x.ko drivers/gpio/gpio-pcf857x.o drivers/gpio/gpio-pcf857x.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/block/rbd.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/block/rbd.ko drivers/block/rbd.o drivers/block/rbd.mod.o .module-common.o

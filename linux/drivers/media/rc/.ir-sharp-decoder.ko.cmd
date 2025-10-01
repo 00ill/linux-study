@@ -1,0 +1,1 @@
+savedcmd_drivers/media/rc/ir-sharp-decoder.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/ir-sharp-decoder.ko drivers/media/rc/ir-sharp-decoder.o drivers/media/rc/ir-sharp-decoder.mod.o .module-common.o

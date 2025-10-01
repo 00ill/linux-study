@@ -1,0 +1,1 @@
+savedcmd_drivers/media/usb/gspca/gspca_ov534_9.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/usb/gspca/gspca_ov534_9.ko drivers/media/usb/gspca/gspca_ov534_9.o drivers/media/usb/gspca/gspca_ov534_9.mod.o .module-common.o

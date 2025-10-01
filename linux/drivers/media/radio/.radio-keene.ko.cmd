@@ -1,0 +1,1 @@
+savedcmd_drivers/media/radio/radio-keene.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/radio/radio-keene.ko drivers/media/radio/radio-keene.o drivers/media/radio/radio-keene.mod.o .module-common.o

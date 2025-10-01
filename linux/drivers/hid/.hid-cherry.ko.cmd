@@ -1,0 +1,1 @@
+savedcmd_drivers/hid/hid-cherry.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-cherry.ko drivers/hid/hid-cherry.o drivers/hid/hid-cherry.mod.o .module-common.o

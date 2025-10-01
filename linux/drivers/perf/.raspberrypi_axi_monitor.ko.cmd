@@ -1,0 +1,1 @@
+savedcmd_drivers/perf/raspberrypi_axi_monitor.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/perf/raspberrypi_axi_monitor.ko drivers/perf/raspberrypi_axi_monitor.o drivers/perf/raspberrypi_axi_monitor.mod.o .module-common.o

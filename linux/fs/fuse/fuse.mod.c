@@ -1,0 +1,395 @@
+#include <linux/module.h>
+#include <linux/export-internal.h>
+#include <linux/compiler.h>
+
+MODULE_INFO(name, KBUILD_MODNAME);
+
+__visible struct module __this_module
+__section(".gnu.linkonce.this_module") = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+KSYMTAB_FUNC(fuse_len_args, "_gpl", "");
+KSYMTAB_FUNC(fuse_get_unique, "_gpl", "");
+KSYMTAB_DATA(fuse_dev_fiq_ops, "_gpl", "");
+KSYMTAB_FUNC(fuse_request_end, "_gpl", "");
+KSYMTAB_FUNC(fuse_simple_background, "_gpl", "");
+KSYMTAB_FUNC(fuse_abort_conn, "_gpl", "");
+KSYMTAB_FUNC(fuse_dev_release, "_gpl", "");
+KSYMTAB_DATA(fuse_dev_operations, "_gpl", "");
+KSYMTAB_FUNC(fuse_do_open, "_gpl", "");
+KSYMTAB_FUNC(fuse_sync_release, "_gpl", "");
+KSYMTAB_FUNC(fuse_direct_io, "_gpl", "");
+KSYMTAB_FUNC(fuse_file_poll, "_gpl", "");
+KSYMTAB_FUNC(fuse_conn_init, "_gpl", "");
+KSYMTAB_FUNC(fuse_conn_put, "_gpl", "");
+KSYMTAB_FUNC(fuse_conn_get, "_gpl", "");
+KSYMTAB_FUNC(fuse_send_init, "_gpl", "");
+KSYMTAB_FUNC(fuse_free_conn, "_gpl", "");
+KSYMTAB_FUNC(fuse_dev_alloc, "_gpl", "");
+KSYMTAB_FUNC(fuse_dev_install, "_gpl", "");
+KSYMTAB_FUNC(fuse_dev_alloc_install, "_gpl", "");
+KSYMTAB_FUNC(fuse_dev_free, "_gpl", "");
+KSYMTAB_FUNC(fuse_init_fs_context_submount, "_gpl", "");
+KSYMTAB_FUNC(fuse_fill_super_common, "_gpl", "");
+KSYMTAB_FUNC(fuse_mount_remove, "_gpl", "");
+KSYMTAB_FUNC(fuse_conn_destroy, "_gpl", "");
+KSYMTAB_FUNC(fuse_mount_destroy, "", "");
+KSYMTAB_FUNC(fuse_do_ioctl, "_gpl", "");
+
+SYMBOL_CRC(fuse_len_args, 0xdd626ee3, "_gpl");
+SYMBOL_CRC(fuse_get_unique, 0xc9cb79ee, "_gpl");
+SYMBOL_CRC(fuse_dev_fiq_ops, 0xa7521471, "_gpl");
+SYMBOL_CRC(fuse_request_end, 0x039d800b, "_gpl");
+SYMBOL_CRC(fuse_simple_background, 0x5c6e7f8e, "_gpl");
+SYMBOL_CRC(fuse_abort_conn, 0x74434efe, "_gpl");
+SYMBOL_CRC(fuse_dev_release, 0x21abb7e3, "_gpl");
+SYMBOL_CRC(fuse_dev_operations, 0x61ac4f87, "_gpl");
+SYMBOL_CRC(fuse_do_open, 0x3cb1af56, "_gpl");
+SYMBOL_CRC(fuse_sync_release, 0x10d742cb, "_gpl");
+SYMBOL_CRC(fuse_direct_io, 0xe468f289, "_gpl");
+SYMBOL_CRC(fuse_file_poll, 0xde56749f, "_gpl");
+SYMBOL_CRC(fuse_conn_init, 0xd57704db, "_gpl");
+SYMBOL_CRC(fuse_conn_put, 0xee3a29ac, "_gpl");
+SYMBOL_CRC(fuse_conn_get, 0x2c6139d5, "_gpl");
+SYMBOL_CRC(fuse_send_init, 0xeb002b80, "_gpl");
+SYMBOL_CRC(fuse_free_conn, 0xfc756125, "_gpl");
+SYMBOL_CRC(fuse_dev_alloc, 0xd02d2559, "_gpl");
+SYMBOL_CRC(fuse_dev_install, 0x9545eb69, "_gpl");
+SYMBOL_CRC(fuse_dev_alloc_install, 0xc3962ec0, "_gpl");
+SYMBOL_CRC(fuse_dev_free, 0x052f6ee1, "_gpl");
+SYMBOL_CRC(fuse_init_fs_context_submount, 0x5923421c, "_gpl");
+SYMBOL_CRC(fuse_fill_super_common, 0xebe535e3, "_gpl");
+SYMBOL_CRC(fuse_mount_remove, 0xe50f2be9, "_gpl");
+SYMBOL_CRC(fuse_conn_destroy, 0xe2da8171, "_gpl");
+SYMBOL_CRC(fuse_mount_destroy, 0x9b52d232, "");
+SYMBOL_CRC(fuse_do_ioctl, 0xc3e24696, "_gpl");
+
+static const struct modversion_info ____versions[]
+__used __section("__versions") = {
+	{ 0xa64a21ee, "super_setup_bdi_name" },
+	{ 0xfbc81c26, "posix_test_lock" },
+	{ 0x41e54897, "truncate_inode_pages" },
+	{ 0x5cd7e795, "noop_backing_dev_info" },
+	{ 0xe914e41e, "strcpy" },
+	{ 0xf0a8d85d, "pipe_lock" },
+	{ 0x75d8ff39, "generic_fillattr" },
+	{ 0xc31db0ce, "is_vmalloc_addr" },
+	{ 0x8de950ec, "vfs_fsync_range" },
+	{ 0x532df94a, "setattr_prepare" },
+	{ 0x3876e85d, "filemap_migrate_folio" },
+	{ 0xfe4586ef, "clear_nlink" },
+	{ 0x49fe236e, "file_check_and_advance_wb_err" },
+	{ 0x5c93b450, "d_alloc_parallel" },
+	{ 0x39819c60, "flush_dcache_page" },
+	{ 0x7b4da6ff, "__init_rwsem" },
+	{ 0x36f038d8, "d_instantiate" },
+	{ 0x3c185c61, "page_put_link" },
+	{ 0x94090688, "misc_deregister" },
+	{ 0xfa5076a3, "make_vfsgid" },
+	{ 0xf1b92e1c, "clear_inode" },
+	{ 0x273b5293, "inode_to_bdi" },
+	{ 0xae8c6dbd, "find_pid_ns" },
+	{ 0x20978fb9, "idr_find" },
+	{ 0x58962ff3, "invalid_mnt_idmap" },
+	{ 0x157477, "grab_cache_page_write_begin" },
+	{ 0x4b0c100, "simple_dir_inode_operations" },
+	{ 0x8d522714, "__rcu_read_lock" },
+	{ 0x397b5d6a, "pipe_unlock" },
+	{ 0x52c5c991, "__kmalloc_noprof" },
+	{ 0xc445f9da, "fs_param_is_string" },
+	{ 0xa0006fa1, "folio_unlock" },
+	{ 0xc232a2b6, "new_inode" },
+	{ 0xbdf17de2, "filemap_map_pages" },
+	{ 0xa6257a2f, "complete" },
+	{ 0x2e59b0e2, "dump_page" },
+	{ 0x180cd0ba, "trace_raw_output_prep" },
+	{ 0x86fd1a46, "forget_all_cached_acls" },
+	{ 0x655430c0, "init_special_inode" },
+	{ 0x3d426ee8, "unregister_filesystem" },
+	{ 0x170bce85, "task_active_pid_ns" },
+	{ 0xf58fc2c4, "iov_iter_single_seg_count" },
+	{ 0x829617d3, "retire_super" },
+	{ 0xca9360b5, "rb_next" },
+	{ 0xa50bb103, "__trace_trigger_soft_disabled" },
+	{ 0x92540fbf, "finish_wait" },
+	{ 0x9bd42653, "d_alloc_name" },
+	{ 0x176cf711, "replace_page_cache_folio" },
+	{ 0xf88881ed, "inode_query_iversion" },
+	{ 0x5b3a7c03, "iov_iter_advance" },
+	{ 0x8d9bb4d2, "kill_fasync" },
+	{ 0x2e237b28, "d_make_root" },
+	{ 0xfbfd5863, "trace_event_printf" },
+	{ 0x5b56a972, "backing_file_splice_write" },
+	{ 0xcdc1a535, "sb_set_blocksize" },
+	{ 0xec712589, "fget" },
+	{ 0xb1bc52ac, "simple_fill_super" },
+	{ 0x23967b1, "xas_find" },
+	{ 0x6114f25f, "sync_filesystem" },
+	{ 0xaae0baa9, "sget_fc" },
+	{ 0xbbbcd88e, "param_set_uint" },
+	{ 0x6426e1f, "d_splice_alias" },
+	{ 0xc61f1356, "iov_iter_get_pages2" },
+	{ 0xbcf645e6, "direct_write_fallback" },
+	{ 0xe1bafd45, "trace_event_raw_init" },
+	{ 0x8900d05a, "trace_print_symbols_seq" },
+	{ 0x4829a47e, "memcpy" },
+	{ 0x2db7ccdf, "from_vfsuid" },
+	{ 0x6530e392, "generic_permission" },
+	{ 0xbd8fa92f, "truncate_pagecache_range" },
+	{ 0x37a0cba, "kfree" },
+	{ 0x9d0e2a6d, "invalidate_inode_pages2_range" },
+	{ 0x4a3cdc00, "posix_lock_file" },
+	{ 0x601de2cc, "finish_open" },
+	{ 0x4710d394, "iput" },
+	{ 0xe953b21f, "get_next_ino" },
+	{ 0x79bc40ef, "logfc" },
+	{ 0x4a37fead, "iter_file_splice_write" },
+	{ 0x8c26d495, "prepare_to_wait_event" },
+	{ 0xf5675b70, "init_pid_ns" },
+	{ 0xc26cc301, "iov_iter_init" },
+	{ 0x70fda457, "d_lookup" },
+	{ 0x9c86b9ab, "fileattr_fill_flags" },
+	{ 0x5a47a607, "sysfs_create_mount_point" },
+	{ 0x4ece803d, "generic_file_write_iter" },
+	{ 0xe2964344, "__wake_up" },
+	{ 0x4302d0eb, "free_pages" },
+	{ 0x969edd2c, "register_filesystem" },
+	{ 0x4486cb26, "folio_add_lru" },
+	{ 0x7bc44e70, "folio_clear_dirty_for_io" },
+	{ 0xa5526619, "rb_insert_color" },
+	{ 0xa77286a, "sync_inode_metadata" },
+	{ 0xbd2f80af, "simple_empty" },
+	{ 0xba8fbd64, "_raw_spin_lock" },
+	{ 0x4e3b4fb5, "vfs_setpos" },
+	{ 0xd6eaaea1, "full_name_hash" },
+	{ 0x439fcd0f, "shrink_dcache_parent" },
+	{ 0xf6f9be19, "make_vfsuid" },
+	{ 0x7c7b473c, "__put_cred" },
+	{ 0xe5274b75, "backing_file_open" },
+	{ 0xd12ca0c5, "get_tree_nodev" },
+	{ 0x67aa019c, "splice_file_range" },
+	{ 0xea427052, "trace_event_buffer_commit" },
+	{ 0x1e4b2fa6, "simple_inode_init_ts" },
+	{ 0x5964f3fc, "locks_lock_inode_wait" },
+	{ 0x5e95b1cd, "current_umask" },
+	{ 0x5fad26bc, "fs_param_is_u32" },
+	{ 0xa7c92d8c, "inode_newsize_ok" },
+	{ 0xf6c6daf3, "d_drop" },
+	{ 0xfafd49dd, "kill_block_super" },
+	{ 0x72828e95, "unlock_new_inode" },
+	{ 0x122c3a7e, "_printk" },
+	{ 0x3d9ee9f0, "clear_page" },
+	{ 0xaadcc062, "bdi_put" },
+	{ 0xfed0ea40, "posix_acl_from_xattr" },
+	{ 0x1000e51, "schedule" },
+	{ 0xa4e2ea7d, "param_get_uint" },
+	{ 0xf0fdf6cb, "__stack_chk_fail" },
+	{ 0x296695f, "refcount_warn_saturate" },
+	{ 0x8d732959, "make_kuid" },
+	{ 0xe0812921, "truncate_inode_pages_final" },
+	{ 0x42e52326, "fs_kobj" },
+	{ 0x931ffb97, "__filemap_set_wb_err" },
+	{ 0x99fab7dc, "simple_dir_operations" },
+	{ 0xde4c861a, "generic_file_mmap" },
+	{ 0xa916b694, "strnlen" },
+	{ 0x3d58c2df, "backing_file_mmap" },
+	{ 0xed09f283, "__filemap_get_folio" },
+	{ 0x6c736d6, "__free_pages" },
+	{ 0xd2a98f1, "folio_mark_dirty" },
+	{ 0xc27e7755, "put_pid_ns" },
+	{ 0xf7d31de9, "kstrtoul_from_user" },
+	{ 0xfdda05e0, "setattr_should_drop_suidgid" },
+	{ 0xc6cbbc89, "capable" },
+	{ 0x898d3fc4, "iov_iter_extract_pages" },
+	{ 0xb8cdc235, "backing_file_write_iter" },
+	{ 0x251379d7, "copy_page_from_iter_atomic" },
+	{ 0x2877e81c, "fs_param_is_gid" },
+	{ 0xe0e1281c, "fs_context_for_submount" },
+	{ 0x7556061c, "inode_init_once" },
+	{ 0xecffe2e8, "file_write_and_wait_range" },
+	{ 0xf8ce1c00, "compat_ptr_ioctl" },
+	{ 0x7665a95b, "idr_remove" },
+	{ 0x4de48e46, "nosteal_pipe_buf_ops" },
+	{ 0x50ac1015, "ilookup5" },
+	{ 0x25add778, "prepare_creds" },
+	{ 0xfe487975, "init_wait_entry" },
+	{ 0xd7f22968, "inode_nohighmem" },
+	{ 0x2d2c902f, "perf_trace_buf_alloc" },
+	{ 0x98e38245, "release_pages" },
+	{ 0x7ade3a6b, "page_get_link_raw" },
+	{ 0x91ac9254, "perf_trace_run_bpf_submit" },
+	{ 0x330bcb26, "generic_file_direct_write" },
+	{ 0xacceb7d8, "fput" },
+	{ 0x57bc19d2, "down_write" },
+	{ 0xce807a25, "up_write" },
+	{ 0x9af62503, "generic_file_read_iter" },
+	{ 0xba84b72e, "inode_maybe_inc_iversion" },
+	{ 0x3322d007, "unlock_page" },
+	{ 0xf70e4a4d, "preempt_schedule_notrace" },
+	{ 0x43b0c9c3, "preempt_schedule" },
+	{ 0xfc3bbbc9, "inc_node_page_state" },
+	{ 0xa07a37f0, "memchr" },
+	{ 0xb12c693f, "truncate_pagecache" },
+	{ 0x2469810f, "__rcu_read_unlock" },
+	{ 0x7105548e, "put_fs_context" },
+	{ 0xb5b63711, "fileattr_fill_xflags" },
+	{ 0xae1ba738, "backing_file_splice_read" },
+	{ 0xa05ede81, "dec_node_page_state" },
+	{ 0x954f099c, "idr_preload" },
+	{ 0xc9ef598e, "write_cache_pages" },
+	{ 0xe780ec2d, "file_update_time" },
+	{ 0xb0b0b893, "set_nlink" },
+	{ 0x4dfa8d4b, "mutex_lock" },
+	{ 0xbbc3a8e2, "kmem_cache_alloc_lru_noprof" },
+	{ 0x4a3c8253, "kmem_cache_free" },
+	{ 0x1cdcd336, "fget_raw" },
+	{ 0x93605e9a, "vfsgid_in_group_p" },
+	{ 0x59cd6602, "from_kgid" },
+	{ 0xb06eee1f, "fasync_helper" },
+	{ 0xfe479535, "trace_event_reg" },
+	{ 0x4d9b652b, "rb_erase" },
+	{ 0x5d243d6f, "file_remove_privs" },
+	{ 0xc1d04b1d, "from_vfsgid" },
+	{ 0x73dce01e, "write_inode_now" },
+	{ 0x921b07b1, "__cpu_online_mask" },
+	{ 0x1a859056, "d_obtain_alias" },
+	{ 0x2d4e9b96, "file_modified" },
+	{ 0x3eb3b942, "copy_page_to_iter" },
+	{ 0x944375db, "_totalram_pages" },
+	{ 0xcefb0c9f, "__mutex_init" },
+	{ 0xa5972220, "folio_end_read" },
+	{ 0x5ad3e1eb, "finish_no_open" },
+	{ 0x91f44510, "idr_alloc_cyclic" },
+	{ 0x54993cd1, "__folio_start_writeback" },
+	{ 0x564c900c, "bpf_trace_run1" },
+	{ 0x8e17b3ae, "idr_destroy" },
+	{ 0x4d036e93, "kill_litter_super" },
+	{ 0x31bf97ef, "folio_end_writeback" },
+	{ 0x352907be, "folio_alloc_noprof" },
+	{ 0x29a43bb2, "from_kuid" },
+	{ 0xe562672, "current_in_userns" },
+	{ 0xcf3b598, "fc_mount" },
+	{ 0xdcb764ad, "memset" },
+	{ 0xdd72cce, "sysfs_remove_mount_point" },
+	{ 0x2002cbd1, "misc_register" },
+	{ 0xbf30d9ff, "unpin_user_page" },
+	{ 0xdf93b9d8, "timespec64_to_jiffies" },
+	{ 0x25974000, "wait_for_completion" },
+	{ 0x6f61551b, "kmem_cache_alloc_noprof" },
+	{ 0x17de3d5, "nr_cpu_ids" },
+	{ 0xd9a5ea54, "__init_waitqueue_head" },
+	{ 0xd9636da6, "in_group_or_capable" },
+	{ 0x796c3d7, "make_kgid" },
+	{ 0xece784c2, "rb_first" },
+	{ 0xc7a7b94f, "d_delete" },
+	{ 0x8450a53a, "__kmem_cache_create_args" },
+	{ 0xe4151e2c, "from_kgid_munged" },
+	{ 0x3c53ea08, "end_page_writeback" },
+	{ 0xad811a0a, "kobject_create_and_add" },
+	{ 0x668b19a1, "down_read" },
+	{ 0xa7873f3e, "wb_writeout_inc" },
+	{ 0x15ba50a6, "jiffies" },
+	{ 0xe3799008, "nonseekable_open" },
+	{ 0x2d30291b, "copy_page_from_iter" },
+	{ 0x2d39b0a7, "kstrdup" },
+	{ 0xd3416bed, "backing_file_read_iter" },
+	{ 0x3c3ff9fd, "sprintf" },
+	{ 0x1d40b6f3, "idr_for_each" },
+	{ 0x28aa6a67, "call_rcu" },
+	{ 0x7230beea, "fdget" },
+	{ 0x910c8d15, "igrab" },
+	{ 0x44c10a52, "kvfree_call_rcu" },
+	{ 0x3aac12c2, "generic_read_dir" },
+	{ 0x2f828d33, "trace_event_buffer_reserve" },
+	{ 0x546f367f, "d_add" },
+	{ 0x3213f038, "mutex_unlock" },
+	{ 0xe138fb8c, "percpu_counter_add_batch" },
+	{ 0xde3f102d, "param_ops_bool" },
+	{ 0x771f0565, "init_user_ns" },
+	{ 0x20d8945d, "folio_copy" },
+	{ 0xf4c4c89a, "d_find_alias" },
+	{ 0xa4ca677c, "invalidate_inode_pages2" },
+	{ 0xecaf20b, "inode_set_ctime_current" },
+	{ 0x44255a01, "inc_nlink" },
+	{ 0xb53675e6, "seq_write" },
+	{ 0xd9aab56f, "__folio_put" },
+	{ 0x9f5561e2, "get_tree_bdev" },
+	{ 0xc4a913aa, "__kmalloc_cache_noprof" },
+	{ 0x929a0413, "set_anon_super_fc" },
+	{ 0xb70166e7, "seq_printf" },
+	{ 0xdbd3c921, "dput" },
+	{ 0xd9b85ef6, "lockref_get" },
+	{ 0x1b52d189, "generic_delete_inode" },
+	{ 0x57dfe1cb, "deactivate_locked_super" },
+	{ 0xd545043, "touch_atime" },
+	{ 0xebdf96, "__d_lookup_unhash_wake" },
+	{ 0x12a4e128, "__arch_copy_from_user" },
+	{ 0x11a0475f, "set_page_dirty_lock" },
+	{ 0xe3389c1, "pid_nr_ns" },
+	{ 0x429e161, "generic_file_open" },
+	{ 0xb6f99e10, "truncate_inode_pages_range" },
+	{ 0x758c67eb, "__put_user_ns" },
+	{ 0xa26dbdbf, "alloc_pages_noprof" },
+	{ 0xf563f1e6, "__folio_lock" },
+	{ 0x6f4a54f6, "filemap_dirty_folio" },
+	{ 0x35d26903, "pagecache_get_page" },
+	{ 0xe0ff878f, "stream_open" },
+	{ 0xa65c6def, "alt_cb_patch_nops" },
+	{ 0x41ed3709, "get_random_bytes" },
+	{ 0x2ec6bba0, "errseq_set" },
+	{ 0xb8273d0b, "__wake_up_sync" },
+	{ 0xd40931b3, "add_to_pipe" },
+	{ 0x74956b81, "__fs_parse" },
+	{ 0xfa34da95, "filemap_splice_read" },
+	{ 0x80f30dea, "posix_acl_to_xattr" },
+	{ 0x4704f7dc, "dget_parent" },
+	{ 0xa0cf97a, "kill_anon_super" },
+	{ 0x10d63cce, "from_kuid_munged" },
+	{ 0xafc08054, "dotdot_name" },
+	{ 0x641aeade, "iget5_locked" },
+	{ 0xb7bacf87, "security_dentry_init_security" },
+	{ 0x323ba371, "filemap_write_and_wait_range" },
+	{ 0xf933d9d0, "get_tree_single" },
+	{ 0x60a13e90, "rcu_barrier" },
+	{ 0x98cf60b3, "strlen" },
+	{ 0xe2a0d848, "generic_write_checks" },
+	{ 0xf85b4e63, "iov_iter_revert" },
+	{ 0x349a1481, "__remove_inode_hash" },
+	{ 0x7aa1756e, "kvfree" },
+	{ 0x45a9d6a4, "mntget" },
+	{ 0x2938b87e, "filemap_fault" },
+	{ 0x5f77d388, "d_invalidate" },
+	{ 0x89d2ebad, "__mark_inode_dirty" },
+	{ 0xe9af6d33, "generic_file_llseek" },
+	{ 0xb5b54b34, "_raw_spin_unlock" },
+	{ 0xccf69887, "get_free_pages_noprof" },
+	{ 0x619cb7dd, "simple_read_from_buffer" },
+	{ 0xc68504d7, "__kvmalloc_node_noprof" },
+	{ 0x85d120e3, "trace_handle_return" },
+	{ 0x53b954a2, "up_read" },
+	{ 0xaf1d87f3, "iov_iter_npages" },
+	{ 0x80287426, "drop_nlink" },
+	{ 0x4aad37fb, "fault_in_iov_iter_readable" },
+	{ 0x34eddbf8, "filemap_check_errors" },
+	{ 0x9f1dc8c6, "kmalloc_caches" },
+	{ 0x847188e8, "krealloc_noprof" },
+	{ 0xd2677708, "fs_param_is_uid" },
+	{ 0xe3804291, "bdi_set_max_ratio" },
+	{ 0x656f612b, "kmem_cache_destroy" },
+	{ 0x317df83, "kobject_put" },
+	{ 0xbc314156, "nop_mnt_idmap" },
+	{ 0x474e54d2, "module_layout" },
+};
+
+MODULE_INFO(depends, "");
+
+
+MODULE_INFO(srcversion, "E9C8891D2FB8994F57A85C8");

@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/health/max30102.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/iio/health/max30102.ko drivers/iio/health/max30102.o drivers/iio/health/max30102.mod.o .module-common.o

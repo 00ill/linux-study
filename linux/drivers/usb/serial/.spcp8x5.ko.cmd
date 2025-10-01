@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/serial/spcp8x5.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/usb/serial/spcp8x5.ko drivers/usb/serial/spcp8x5.o drivers/usb/serial/spcp8x5.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/intel/iwlwifi/dvm/iwldvm.o := ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/net/wireless/intel/iwlwifi/dvm/iwldvm.o @drivers/net/wireless/intel/iwlwifi/dvm/iwldvm.mod 

@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/qualcomm/qca_7k_common.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/ethernet/qualcomm/qca_7k_common.ko drivers/net/ethernet/qualcomm/qca_7k_common.o drivers/net/ethernet/qualcomm/qca_7k_common.mod.o .module-common.o

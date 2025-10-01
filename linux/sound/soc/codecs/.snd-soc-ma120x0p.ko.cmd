@@ -1,0 +1,1 @@
+savedcmd_sound/soc/codecs/snd-soc-ma120x0p.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/soc/codecs/snd-soc-ma120x0p.ko sound/soc/codecs/snd-soc-ma120x0p.o sound/soc/codecs/snd-soc-ma120x0p.mod.o .module-common.o

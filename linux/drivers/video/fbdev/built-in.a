@@ -1,0 +1,64 @@
+!<thin>
+//                                              534       `
+core/fb_notify.o/
+core/fb_info.o/
+core/fbmem.o/
+core/fbcmap.o/
+core/modedb.o/
+core/fbcvt.o/
+core/fb_cmdline.o/
+core/fb_backlight.o/
+core/fbmon.o/
+core/fb_defio.o/
+core/fb_chrdev.o/
+core/fb_procfs.o/
+core/fbsysfs.o/
+core/fbcon.o/
+core/bitblit.o/
+core/softcursor.o/
+core/fbcon_rotate.o/
+core/fbcon_cw.o/
+core/fbcon_ud.o/
+core/fbcon_ccw.o/
+core/fb_logo.o/
+core/cfbfillrect.o/
+core/cfbcopyarea.o/
+core/cfbimgblt.o/
+core/fb_io_fops.o/
+core/sysfillrect.o/
+core/syscopyarea.o/
+core/sysimgblt.o/
+core/fb_sys_fops.o/
+bcm2708_fb.o/
+simplefb.o/
+/0              0           0     0     644     3392      `
+/18             0           0     0     644     3480      `
+/34             0           0     0     644     18432     `
+/48             0           0     0     644     9936      `
+/63             0           0     0     644     14312     `
+/78             0           0     0     644     5184      `
+/92             0           0     0     644     2752      `
+/111            0           0     0     644     2664      `
+/132            0           0     0     644     3776      `
+/146            0           0     0     644     11088     `
+/163            0           0     0     644     13680     `
+/181            0           0     0     644     3600      `
+/199            0           0     0     644     13144     `
+/215            0           0     0     644     55488     `
+/229            0           0     0     644     6664      `
+/245            0           0     0     644     2288      `
+/264            0           0     0     644     3120      `
+/285            0           0     0     644     6648      `
+/302            0           0     0     644     6608      `
+/319            0           0     0     644     6792      `
+/337            0           0     0     644     10560     `
+/353            0           0     0     644     8384      `
+/373            0           0     0     644     9152      `
+/393            0           0     0     644     5848      `
+/411            0           0     0     644     5912      `
+/430            0           0     0     644     6432      `
+/450            0           0     0     644     5216      `
+/470            0           0     0     644     5456      `
+/488            0           0     0     644     5136      `
+/508            0           0     0     644     25712     `
+/522            0           0     0     644     17888     `

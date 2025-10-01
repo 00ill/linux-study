@@ -1,0 +1,1 @@
+savedcmd_drivers/media/usb/go7007/go7007-usb.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/usb/go7007/go7007-usb.ko drivers/media/usb/go7007/go7007-usb.o drivers/media/usb/go7007/go7007-usb.mod.o .module-common.o

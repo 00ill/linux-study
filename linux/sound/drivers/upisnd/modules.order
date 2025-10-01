@@ -1,0 +1,2 @@
+sound/drivers/upisnd/snd-soc-upisnd-ctrl.o
+sound/drivers/upisnd/snd-soc-upisnd-codec.o

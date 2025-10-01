@@ -1,0 +1,1 @@
+savedcmd_sound/soc/bcm/snd-soc-rpi-cirrus.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/soc/bcm/snd-soc-rpi-cirrus.ko sound/soc/bcm/snd-soc-rpi-cirrus.o sound/soc/bcm/snd-soc-rpi-cirrus.mod.o .module-common.o

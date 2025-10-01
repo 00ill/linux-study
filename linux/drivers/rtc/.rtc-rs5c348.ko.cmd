@@ -1,0 +1,1 @@
+savedcmd_drivers/rtc/rtc-rs5c348.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/rtc/rtc-rs5c348.ko drivers/rtc/rtc-rs5c348.o drivers/rtc/rtc-rs5c348.mod.o .module-common.o

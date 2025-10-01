@@ -1,0 +1,1 @@
+savedcmd_drivers/power/supply/gpio-charger.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/power/supply/gpio-charger.ko drivers/power/supply/gpio-charger.o drivers/power/supply/gpio-charger.mod.o .module-common.o

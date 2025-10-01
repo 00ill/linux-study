@@ -1,0 +1,1 @@
+savedcmd_drivers/pwm/pwm-raspberrypi-poe.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/pwm/pwm-raspberrypi-poe.ko drivers/pwm/pwm-raspberrypi-poe.o drivers/pwm/pwm-raspberrypi-poe.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/input/joystick/iforce/iforce.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/input/joystick/iforce/iforce.ko drivers/input/joystick/iforce/iforce.o drivers/input/joystick/iforce/iforce.mod.o .module-common.o

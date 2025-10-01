@@ -1,0 +1,1 @@
+savedcmd_drivers/media/common/tveeprom.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/common/tveeprom.ko drivers/media/common/tveeprom.o drivers/media/common/tveeprom.mod.o .module-common.o

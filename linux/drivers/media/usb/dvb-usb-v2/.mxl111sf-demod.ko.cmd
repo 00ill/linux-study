@@ -1,0 +1,1 @@
+savedcmd_drivers/media/usb/dvb-usb-v2/mxl111sf-demod.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/usb/dvb-usb-v2/mxl111sf-demod.ko drivers/media/usb/dvb-usb-v2/mxl111sf-demod.o drivers/media/usb/dvb-usb-v2/mxl111sf-demod.mod.o .module-common.o

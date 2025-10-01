@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/bcm2835/bcm2835-unicam-legacy.o := ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/media/platform/bcm2835/bcm2835-unicam-legacy.o @drivers/media/platform/bcm2835/bcm2835-unicam-legacy.mod 

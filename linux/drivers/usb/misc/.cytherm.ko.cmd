@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/misc/cytherm.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/usb/misc/cytherm.ko drivers/usb/misc/cytherm.o drivers/usb/misc/cytherm.mod.o .module-common.o

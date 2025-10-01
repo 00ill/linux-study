@@ -1,0 +1,1 @@
+savedcmd_drivers/media/dvb-frontends/helene.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/helene.ko drivers/media/dvb-frontends/helene.o drivers/media/dvb-frontends/helene.mod.o .module-common.o

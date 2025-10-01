@@ -1,0 +1,129 @@
+#include <linux/module.h>
+#include <linux/export-internal.h>
+#include <linux/compiler.h>
+
+MODULE_INFO(name, KBUILD_MODNAME);
+
+__visible struct module __this_module
+__section(".gnu.linkonce.this_module") = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+KSYMTAB_DATA(xfrm_msg_min, "_gpl", "");
+KSYMTAB_DATA(xfrma_policy, "_gpl", "");
+
+SYMBOL_CRC(xfrm_msg_min, 0x4a0c7516, "_gpl");
+SYMBOL_CRC(xfrma_policy, 0xa4f9b1a3, "_gpl");
+
+static const struct modversion_info ____versions[]
+__used __section("__versions") = {
+	{ 0x122c3a7e, "_printk" },
+	{ 0xa7aa86ad, "register_pernet_subsys" },
+	{ 0x50dde151, "xfrm_register_km" },
+	{ 0x8d522714, "__rcu_read_lock" },
+	{ 0xec449138, "netlink_has_listeners" },
+	{ 0x2469810f, "__rcu_read_unlock" },
+	{ 0x4829a47e, "memcpy" },
+	{ 0xdcb764ad, "memset" },
+	{ 0x6ece03a9, "nla_put" },
+	{ 0xf0fdf6cb, "__stack_chk_fail" },
+	{ 0x94721dcb, "nla_reserve" },
+	{ 0xe6d2458e, "do_trace_netlink_extack" },
+	{ 0x1d25a0ff, "netlink_kernel_release" },
+	{ 0x4dfa8d4b, "mutex_lock" },
+	{ 0x208bf44f, "netlink_rcv_skb" },
+	{ 0x3213f038, "mutex_unlock" },
+	{ 0xba8fbd64, "_raw_spin_lock" },
+	{ 0xb5b54b34, "_raw_spin_unlock" },
+	{ 0x42185468, "xfrm_policy_hash_rebuild" },
+	{ 0x1c8906a5, "xfrm_state_flush" },
+	{ 0xb70b2d2b, "km_state_notify" },
+	{ 0x1be9dfa8, "xfrm_policy_walk_done" },
+	{ 0x3983e443, "xfrm_policy_walk" },
+	{ 0xc9df055a, "xfrm_policy_walk_init" },
+	{ 0x337be741, "xfrm_state_walk_done" },
+	{ 0xc10c6da6, "__netlink_kernel_create" },
+	{ 0x4741fe87, "xfrm_unregister_km" },
+	{ 0x786ff15d, "unregister_pernet_subsys" },
+	{ 0x127d83ea, "security_locked_down" },
+	{ 0x476b165a, "sized_strscpy" },
+	{ 0x9166fada, "strncpy" },
+	{ 0x48e9a84, "nla_put_64bit" },
+	{ 0x80c49265, "xfrm_state_lookup" },
+	{ 0x521acda8, "xfrm_state_lookup_byaddr" },
+	{ 0xb0499174, "netlink_net_capable" },
+	{ 0x83f51840, "__nla_parse" },
+	{ 0xd922c2e5, "sk_skb_reason_drop" },
+	{ 0x7aa1756e, "kvfree" },
+	{ 0x7ac71ae4, "__netlink_dump_start" },
+	{ 0xa8ade12b, "kmemdup_noprof" },
+	{ 0x2782b393, "xfrm_state_walk_init" },
+	{ 0xfae194bb, "xfrm_state_walk" },
+	{ 0x37a0cba, "kfree" },
+	{ 0x2de55c30, "xfrm_policy_flush" },
+	{ 0x13938f0c, "km_policy_notify" },
+	{ 0x479b6fda, "xfrm_policy_alloc" },
+	{ 0x33aa1df1, "xfrm_policy_destroy" },
+	{ 0xf28e7fdb, "xfrm_dev_policy_add" },
+	{ 0xf9282df4, "__alloc_skb" },
+	{ 0x7a71a0be, "__nlmsg_put" },
+	{ 0xf4889f04, "netlink_unicast" },
+	{ 0xede5e5bb, "xfrm_policy_insert" },
+	{ 0x4576825d, "xfrm_audit_policy_add" },
+	{ 0xa65c6def, "alt_cb_patch_nops" },
+	{ 0x296695f, "refcount_warn_saturate" },
+	{ 0xf70e4a4d, "preempt_schedule_notrace" },
+	{ 0x6d569cec, "netlink_broadcast_filtered" },
+	{ 0x2c190ec6, "skb_trim" },
+	{ 0xb3c23dc4, "__fib6_flush_trees" },
+	{ 0xb3e8f935, "xfrm_state_alloc" },
+	{ 0x1e96f43d, "__cpu_possible_mask" },
+	{ 0x9f46ced8, "__sw_hweight64" },
+	{ 0xbee92b90, "xfrm_state_free" },
+	{ 0x4bc8ed06, "km_query" },
+	{ 0xfa193b69, "xfrm_policy_byid" },
+	{ 0x5080e977, "km_policy_expired" },
+	{ 0xc40a6497, "xfrm_policy_bysel_ctx" },
+	{ 0x8fee3387, "xfrm_policy_delete" },
+	{ 0x57ab936d, "xfrm_audit_policy_delete" },
+	{ 0xc3690fc, "_raw_spin_lock_bh" },
+	{ 0xe46021ca, "_raw_spin_unlock_bh" },
+	{ 0xf492bcc8, "km_state_expired" },
+	{ 0xacdfe229, "__xfrm_state_destroy" },
+	{ 0x1055677b, "__xfrm_state_delete" },
+	{ 0x51e350dd, "xfrm_audit_state_delete" },
+	{ 0x18ba4b7a, "xfrm_state_delete" },
+	{ 0xacbba0c5, "xfrm_spd_getinfo" },
+	{ 0xb01bebf9, "xfrm_get_acqseq" },
+	{ 0xda454074, "xfrm_sad_getinfo" },
+	{ 0x49ca83, "xfrm_aead_get_byname" },
+	{ 0xe914e41e, "strcpy" },
+	{ 0x37a02412, "xfrm_aalg_get_byname" },
+	{ 0x52c5c991, "__kmalloc_noprof" },
+	{ 0xd6f50cf7, "xfrm_ealg_get_byname" },
+	{ 0xaab23340, "xfrm_calg_get_byname" },
+	{ 0x47711320, "__xfrm_init_state" },
+	{ 0xbaf8806d, "xfrm_init_replay" },
+	{ 0x7494a511, "xfrm_dev_state_add" },
+	{ 0x2c17b829, "xfrm_state_update" },
+	{ 0x21a3baa5, "xfrm_audit_state_add" },
+	{ 0x4d84a97c, "xfrm_state_add" },
+	{ 0xd3bb0d48, "xfrm_dev_state_delete" },
+	{ 0x37e497e8, "verify_spi_info" },
+	{ 0xc679219, "xfrm_find_acq_byseq" },
+	{ 0x8356b775, "xfrm_find_acq" },
+	{ 0x938b9867, "xfrm_alloc_spi" },
+	{ 0x474e54d2, "module_layout" },
+};
+
+MODULE_INFO(depends, "xfrm_algo");
+
+
+MODULE_INFO(srcversion, "CA685C1FCB4D075B97B3D47");

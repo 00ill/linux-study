@@ -1,0 +1,1 @@
+savedcmd_net/ipv6/netfilter/ip6t_srh.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/ipv6/netfilter/ip6t_srh.ko net/ipv6/netfilter/ip6t_srh.o net/ipv6/netfilter/ip6t_srh.mod.o .module-common.o

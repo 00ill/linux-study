@@ -1,0 +1,1 @@
+savedcmd_sound/soc/bcm/snd-soc-rpi-simple-soundcard.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/soc/bcm/snd-soc-rpi-simple-soundcard.ko sound/soc/bcm/snd-soc-rpi-simple-soundcard.o sound/soc/bcm/snd-soc-rpi-simple-soundcard.mod.o .module-common.o

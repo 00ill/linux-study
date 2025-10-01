@@ -1,0 +1,1 @@
+savedcmd_drivers/mtd/nand/spi/spinand.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/mtd/nand/spi/spinand.ko drivers/mtd/nand/spi/spinand.o drivers/mtd/nand/spi/spinand.mod.o .module-common.o

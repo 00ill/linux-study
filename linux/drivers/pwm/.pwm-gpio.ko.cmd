@@ -1,0 +1,1 @@
+savedcmd_drivers/pwm/pwm-gpio.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/pwm/pwm-gpio.ko drivers/pwm/pwm-gpio.o drivers/pwm/pwm-gpio.mod.o .module-common.o

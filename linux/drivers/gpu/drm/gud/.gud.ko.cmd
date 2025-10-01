@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/gud/gud.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/gud/gud.ko drivers/gpu/drm/gud/gud.o drivers/gpu/drm/gud/gud.mod.o .module-common.o

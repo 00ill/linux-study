@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/gadget/legacy/g_acm_ms.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/usb/gadget/legacy/g_acm_ms.ko drivers/usb/gadget/legacy/g_acm_ms.o drivers/usb/gadget/legacy/g_acm_ms.mod.o .module-common.o

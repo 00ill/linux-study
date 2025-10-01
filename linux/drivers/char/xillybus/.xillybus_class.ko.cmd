@@ -1,0 +1,1 @@
+savedcmd_drivers/char/xillybus/xillybus_class.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/char/xillybus/xillybus_class.ko drivers/char/xillybus/xillybus_class.o drivers/char/xillybus/xillybus_class.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/media/dvb-frontends/drxd.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/drxd.ko drivers/media/dvb-frontends/drxd.o drivers/media/dvb-frontends/drxd.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_net/ipv4/tcp_westwood.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/ipv4/tcp_westwood.ko net/ipv4/tcp_westwood.o net/ipv4/tcp_westwood.mod.o .module-common.o

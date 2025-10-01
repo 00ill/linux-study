@@ -1,0 +1,9 @@
+drivers/net/wireless/realtek/rtl8xxxu/core.o
+drivers/net/wireless/realtek/rtl8xxxu/8192e.o
+drivers/net/wireless/realtek/rtl8xxxu/8723b.o
+drivers/net/wireless/realtek/rtl8xxxu/8723a.o
+drivers/net/wireless/realtek/rtl8xxxu/8192c.o
+drivers/net/wireless/realtek/rtl8xxxu/8188f.o
+drivers/net/wireless/realtek/rtl8xxxu/8188e.o
+drivers/net/wireless/realtek/rtl8xxxu/8710b.o
+drivers/net/wireless/realtek/rtl8xxxu/8192f.o

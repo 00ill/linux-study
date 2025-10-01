@@ -1,0 +1,1 @@
+savedcmd_drivers/hid/hid-axff.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-axff.ko drivers/hid/hid-axff.o drivers/hid/hid-axff.mod.o .module-common.o

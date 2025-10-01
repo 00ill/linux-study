@@ -1,0 +1,1 @@
+savedcmd_net/netfilter/xt_HMARK.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/netfilter/xt_HMARK.ko net/netfilter/xt_HMARK.o net/netfilter/xt_HMARK.mod.o .module-common.o

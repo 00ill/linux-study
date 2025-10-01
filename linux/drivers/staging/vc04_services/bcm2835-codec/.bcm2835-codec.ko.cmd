@@ -1,0 +1,1 @@
+savedcmd_drivers/staging/vc04_services/bcm2835-codec/bcm2835-codec.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/staging/vc04_services/bcm2835-codec/bcm2835-codec.ko drivers/staging/vc04_services/bcm2835-codec/bcm2835-codec.o drivers/staging/vc04_services/bcm2835-codec/bcm2835-codec.mod.o .module-common.o

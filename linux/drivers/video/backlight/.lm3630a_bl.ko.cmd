@@ -1,0 +1,1 @@
+savedcmd_drivers/video/backlight/lm3630a_bl.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/video/backlight/lm3630a_bl.ko drivers/video/backlight/lm3630a_bl.o drivers/video/backlight/lm3630a_bl.mod.o .module-common.o

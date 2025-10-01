@@ -11,7 +11,7 @@
  * Fork is rather simple, once you get the hang of it, but the memory
  * management can be a bitch. See 'mm/memory.c': 'copy_page_range()'
  */
-
+#include <linux/kernel.h>
 #include <linux/anon_inodes.h>
 #include <linux/slab.h>
 #include <linux/sched/autogroup.h>
@@ -2152,6 +2152,7 @@ __latent_entropy struct task_struct *copy_process(
 	const u64 clone_flags = args->flags;
 	struct nsproxy *nsp = current->nsproxy;
 
+	printk(KERN_INFO "Check Kernel Build");
 	/*
 	 * Don't allow sharing the root directory with processes in a different
 	 * namespace

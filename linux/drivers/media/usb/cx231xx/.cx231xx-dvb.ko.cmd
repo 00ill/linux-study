@@ -1,0 +1,1 @@
+savedcmd_drivers/media/usb/cx231xx/cx231xx-dvb.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/usb/cx231xx/cx231xx-dvb.ko drivers/media/usb/cx231xx/cx231xx-dvb.o drivers/media/usb/cx231xx/cx231xx-dvb.mod.o .module-common.o

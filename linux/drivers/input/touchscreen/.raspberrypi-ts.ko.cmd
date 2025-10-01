@@ -1,0 +1,1 @@
+savedcmd_drivers/input/touchscreen/raspberrypi-ts.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/input/touchscreen/raspberrypi-ts.ko drivers/input/touchscreen/raspberrypi-ts.o drivers/input/touchscreen/raspberrypi-ts.mod.o .module-common.o

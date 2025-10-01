@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/light/bh1750.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/iio/light/bh1750.ko drivers/iio/light/bh1750.o drivers/iio/light/bh1750.mod.o .module-common.o

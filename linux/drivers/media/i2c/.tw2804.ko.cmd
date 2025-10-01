@@ -1,0 +1,1 @@
+savedcmd_drivers/media/i2c/tw2804.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/i2c/tw2804.ko drivers/media/i2c/tw2804.o drivers/media/i2c/tw2804.mod.o .module-common.o

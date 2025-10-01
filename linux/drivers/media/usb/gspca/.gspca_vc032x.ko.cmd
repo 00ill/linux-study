@@ -1,0 +1,1 @@
+savedcmd_drivers/media/usb/gspca/gspca_vc032x.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/usb/gspca/gspca_vc032x.ko drivers/media/usb/gspca/gspca_vc032x.o drivers/media/usb/gspca/gspca_vc032x.mod.o .module-common.o

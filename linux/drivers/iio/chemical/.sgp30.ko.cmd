@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/chemical/sgp30.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/iio/chemical/sgp30.ko drivers/iio/chemical/sgp30.o drivers/iio/chemical/sgp30.mod.o .module-common.o

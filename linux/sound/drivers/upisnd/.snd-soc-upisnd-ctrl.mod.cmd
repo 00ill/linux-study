@@ -1,0 +1,1 @@
+savedcmd_sound/drivers/upisnd/snd-soc-upisnd-ctrl.mod := printf '%s\n'   upisnd_module.o upisnd_ctrl.o upisnd_comm.o upisnd_sound.o upisnd_midi.o upisnd_pins.o upisnd_gpio.o upisnd_sysfs.o upisnd_utils.o | awk '!x[$$0]++ { print("sound/drivers/upisnd/"$$0) }' > sound/drivers/upisnd/snd-soc-upisnd-ctrl.mod

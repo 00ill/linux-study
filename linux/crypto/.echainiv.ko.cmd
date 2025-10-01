@@ -1,0 +1,1 @@
+savedcmd_crypto/echainiv.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o crypto/echainiv.ko crypto/echainiv.o crypto/echainiv.mod.o .module-common.o

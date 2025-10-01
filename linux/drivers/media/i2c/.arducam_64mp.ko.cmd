@@ -1,0 +1,1 @@
+savedcmd_drivers/media/i2c/arducam_64mp.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/i2c/arducam_64mp.ko drivers/media/i2c/arducam_64mp.o drivers/media/i2c/arducam_64mp.mod.o .module-common.o

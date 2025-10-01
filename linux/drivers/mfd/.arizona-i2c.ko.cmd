@@ -1,0 +1,1 @@
+savedcmd_drivers/mfd/arizona-i2c.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/mfd/arizona-i2c.ko drivers/mfd/arizona-i2c.o drivers/mfd/arizona-i2c.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_sound/soc/bcm/snd-soc-dionaudio-loco-v2.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/soc/bcm/snd-soc-dionaudio-loco-v2.ko sound/soc/bcm/snd-soc-dionaudio-loco-v2.o sound/soc/bcm/snd-soc-dionaudio-loco-v2.mod.o .module-common.o

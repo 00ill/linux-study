@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/gadget/legacy/g_webcam.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/usb/gadget/legacy/g_webcam.ko drivers/usb/gadget/legacy/g_webcam.o drivers/usb/gadget/legacy/g_webcam.mod.o .module-common.o

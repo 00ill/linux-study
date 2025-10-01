@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/marvell/libertas_tf/libertas_tf.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/marvell/libertas_tf/libertas_tf.ko drivers/net/wireless/marvell/libertas_tf/libertas_tf.o drivers/net/wireless/marvell/libertas_tf/libertas_tf.mod.o .module-common.o

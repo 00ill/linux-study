@@ -1,0 +1,1 @@
+savedcmd_drivers/rtc/rtc-max6900.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/rtc/rtc-max6900.ko drivers/rtc/rtc-max6900.o drivers/rtc/rtc-max6900.mod.o .module-common.o

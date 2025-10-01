@@ -1,0 +1,1 @@
+savedcmd_drivers/media/rc/gpio-ir-recv.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/gpio-ir-recv.ko drivers/media/rc/gpio-ir-recv.o drivers/media/rc/gpio-ir-recv.mod.o .module-common.o

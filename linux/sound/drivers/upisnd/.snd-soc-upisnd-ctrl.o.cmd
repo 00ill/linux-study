@@ -1,0 +1,1 @@
+savedcmd_sound/drivers/upisnd/snd-soc-upisnd-ctrl.o := ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o sound/drivers/upisnd/snd-soc-upisnd-ctrl.o @sound/drivers/upisnd/snd-soc-upisnd-ctrl.mod 

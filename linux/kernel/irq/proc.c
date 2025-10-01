@@ -470,7 +470,7 @@ void rpi_get_interrupt_info(struct irqaction *action_p)
     }
     if(irq_handler)
     {
-        trace_printk("[%s] %d, irq_handler: %pS \n", current->comm, irq_num, action_p->name, irq_handler);
+        trace_printk("[%s] %d: %s, irq_handler: %pS \n", current->comm, irq_num, action_p->name, irq_handler);
     }
 }
 

@@ -1,0 +1,1 @@
+savedcmd_drivers/regulator/waveshare-panel-regulator.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/regulator/waveshare-panel-regulator.ko drivers/regulator/waveshare-panel-regulator.o drivers/regulator/waveshare-panel-regulator.mod.o .module-common.o

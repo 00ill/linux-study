@@ -1,0 +1,3 @@
+drivers/tty/serial/sc16is7xx.o
+drivers/tty/serial/sc16is7xx_spi.o
+drivers/tty/serial/sc16is7xx_i2c.o

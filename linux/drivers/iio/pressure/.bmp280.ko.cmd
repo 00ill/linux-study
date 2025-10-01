@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/pressure/bmp280.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/iio/pressure/bmp280.ko drivers/iio/pressure/bmp280.o drivers/iio/pressure/bmp280.mod.o .module-common.o

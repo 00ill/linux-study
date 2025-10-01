@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/light/tsl4531.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/iio/light/tsl4531.ko drivers/iio/light/tsl4531.o drivers/iio/light/tsl4531.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/temperature/maxim_thermocouple.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/iio/temperature/maxim_thermocouple.ko drivers/iio/temperature/maxim_thermocouple.o drivers/iio/temperature/maxim_thermocouple.mod.o .module-common.o

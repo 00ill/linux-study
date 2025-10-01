@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/realtek/rtw88/rtw88_pci.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/realtek/rtw88/rtw88_pci.ko drivers/net/wireless/realtek/rtw88/rtw88_pci.o drivers/net/wireless/realtek/rtw88/rtw88_pci.mod.o .module-common.o

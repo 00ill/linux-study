@@ -1,0 +1,1 @@
+savedcmd_drivers/regulator/arizona-ldo1.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/regulator/arizona-ldo1.ko drivers/regulator/arizona-ldo1.o drivers/regulator/arizona-ldo1.mod.o .module-common.o

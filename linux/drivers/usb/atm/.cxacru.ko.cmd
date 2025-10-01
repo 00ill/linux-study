@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/atm/cxacru.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/usb/atm/cxacru.ko drivers/usb/atm/cxacru.o drivers/usb/atm/cxacru.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_net/netfilter/nf_conntrack_tftp.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/netfilter/nf_conntrack_tftp.ko net/netfilter/nf_conntrack_tftp.o net/netfilter/nf_conntrack_tftp.mod.o .module-common.o

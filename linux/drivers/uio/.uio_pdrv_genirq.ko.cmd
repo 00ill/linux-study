@@ -1,0 +1,1 @@
+savedcmd_drivers/uio/uio_pdrv_genirq.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/uio/uio_pdrv_genirq.ko drivers/uio/uio_pdrv_genirq.o drivers/uio/uio_pdrv_genirq.mod.o .module-common.o

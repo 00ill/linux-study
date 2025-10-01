@@ -1,0 +1,1 @@
+savedcmd_drivers/net/can/usb/gs_usb.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/can/usb/gs_usb.ko drivers/net/can/usb/gs_usb.o drivers/net/can/usb/gs_usb.mod.o .module-common.o

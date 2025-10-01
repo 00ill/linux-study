@@ -1,0 +1,1 @@
+savedcmd_sound/soc/bcm/snd-soc-iqaudio-dac.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/soc/bcm/snd-soc-iqaudio-dac.ko sound/soc/bcm/snd-soc-iqaudio-dac.o sound/soc/bcm/snd-soc-iqaudio-dac.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/mediatek/mt76/mt7925/mt7925u.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/mediatek/mt76/mt7925/mt7925u.ko drivers/net/wireless/mediatek/mt76/mt7925/mt7925u.o drivers/net/wireless/mediatek/mt76/mt7925/mt7925u.mod.o .module-common.o

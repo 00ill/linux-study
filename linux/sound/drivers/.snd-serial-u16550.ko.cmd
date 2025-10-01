@@ -1,0 +1,1 @@
+savedcmd_sound/drivers/snd-serial-u16550.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/drivers/snd-serial-u16550.ko sound/drivers/snd-serial-u16550.o sound/drivers/snd-serial-u16550.mod.o .module-common.o

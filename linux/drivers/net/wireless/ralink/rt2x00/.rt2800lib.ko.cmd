@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/ralink/rt2x00/rt2800lib.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/ralink/rt2x00/rt2800lib.ko drivers/net/wireless/ralink/rt2x00/rt2800lib.o drivers/net/wireless/ralink/rt2x00/rt2800lib.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/media/rc/streamzap.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/streamzap.ko drivers/media/rc/streamzap.o drivers/media/rc/streamzap.mod.o .module-common.o

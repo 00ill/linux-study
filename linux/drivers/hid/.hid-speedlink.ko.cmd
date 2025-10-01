@@ -1,0 +1,1 @@
+savedcmd_drivers/hid/hid-speedlink.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-speedlink.ko drivers/hid/hid-speedlink.o drivers/hid/hid-speedlink.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/bcm2835/bcm2835-unicam-legacy.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/platform/bcm2835/bcm2835-unicam-legacy.ko drivers/media/platform/bcm2835/bcm2835-unicam-legacy.o drivers/media/platform/bcm2835/bcm2835-unicam-legacy.mod.o .module-common.o
