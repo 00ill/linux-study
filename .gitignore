@@ -1,0 +1,14 @@
+/linux/*.o
+/linux/*.ko
+/linux/*.mod.c
+/linux/*.cmd
+/linux/.*.cmd
+/linux/.*.o
+/linux/.*.tmp
+/linux/Module.symvers
+/linux/Module.markers
+/linux/modules.order
+/linux/.*.tmp_versions/
+/linux/.vmlinux*
+/linux/.config.old
+/linux/.config.cmd
