@@ -1,1 +1,0 @@
-savedcmd_fs/bcachefs/bcachefs.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o fs/bcachefs/bcachefs.ko fs/bcachefs/bcachefs.o fs/bcachefs/bcachefs.mod.o .module-common.o

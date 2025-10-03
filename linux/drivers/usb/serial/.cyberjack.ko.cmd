@@ -1,1 +1,0 @@
-savedcmd_drivers/usb/serial/cyberjack.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/usb/serial/cyberjack.ko drivers/usb/serial/cyberjack.o drivers/usb/serial/cyberjack.mod.o .module-common.o

@@ -1,1 +1,0 @@
-savedcmd_drivers/regulator/rpi-panel-v2-regulator.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/regulator/rpi-panel-v2-regulator.ko drivers/regulator/rpi-panel-v2-regulator.o drivers/regulator/rpi-panel-v2-regulator.mod.o .module-common.o

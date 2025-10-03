@@ -1,1 +1,0 @@
-savedcmd_net/can/j1939/can-j1939.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/can/j1939/can-j1939.ko net/can/j1939/can-j1939.o net/can/j1939/can-j1939.mod.o .module-common.o

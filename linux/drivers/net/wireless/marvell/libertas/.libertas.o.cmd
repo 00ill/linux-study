@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/marvell/libertas/libertas.o := ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/net/wireless/marvell/libertas/libertas.o @drivers/net/wireless/marvell/libertas/libertas.mod 

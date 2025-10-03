@@ -1,1 +1,0 @@
-savedcmd_crypto/crypto_null.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o crypto/crypto_null.ko crypto/crypto_null.o crypto/crypto_null.mod.o .module-common.o

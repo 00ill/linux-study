@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/realtek/rtw89/rtw89_8852b.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/realtek/rtw89/rtw89_8852b.ko drivers/net/wireless/realtek/rtw89/rtw89_8852b.o drivers/net/wireless/realtek/rtw89/rtw89_8852b.mod.o .module-common.o

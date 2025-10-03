@@ -1,1 +1,0 @@
-savedcmd_drivers/bluetooth/bpa10x.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/bluetooth/bpa10x.ko drivers/bluetooth/bpa10x.o drivers/bluetooth/bpa10x.mod.o .module-common.o

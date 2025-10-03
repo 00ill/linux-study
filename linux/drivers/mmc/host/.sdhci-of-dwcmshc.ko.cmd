@@ -1,1 +1,0 @@
-savedcmd_drivers/mmc/host/sdhci-of-dwcmshc.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/mmc/host/sdhci-of-dwcmshc.ko drivers/mmc/host/sdhci-of-dwcmshc.o drivers/mmc/host/sdhci-of-dwcmshc.mod.o .module-common.o

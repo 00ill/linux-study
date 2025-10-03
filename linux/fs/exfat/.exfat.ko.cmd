@@ -1,1 +1,0 @@
-savedcmd_fs/exfat/exfat.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o fs/exfat/exfat.ko fs/exfat/exfat.o fs/exfat/exfat.mod.o .module-common.o

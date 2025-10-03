@@ -1,1 +1,0 @@
-savedcmd_drivers/hid/hid-elo.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-elo.ko drivers/hid/hid-elo.o drivers/hid/hid-elo.mod.o .module-common.o

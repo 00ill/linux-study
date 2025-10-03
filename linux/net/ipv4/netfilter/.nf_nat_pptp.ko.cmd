@@ -1,1 +1,0 @@
-savedcmd_net/ipv4/netfilter/nf_nat_pptp.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/ipv4/netfilter/nf_nat_pptp.ko net/ipv4/netfilter/nf_nat_pptp.o net/ipv4/netfilter/nf_nat_pptp.mod.o .module-common.o

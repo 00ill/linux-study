@@ -1,1 +1,0 @@
-savedcmd_drivers/hid/hid-waltop.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-waltop.ko drivers/hid/hid-waltop.o drivers/hid/hid-waltop.mod.o .module-common.o

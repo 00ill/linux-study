@@ -1,1 +1,0 @@
-savedcmd_drivers/usb/atm/speedtch.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/usb/atm/speedtch.ko drivers/usb/atm/speedtch.o drivers/usb/atm/speedtch.mod.o .module-common.o

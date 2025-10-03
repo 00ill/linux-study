@@ -1,1 +1,0 @@
-savedcmd_drivers/media/usb/gspca/gspca_sn9c20x.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/usb/gspca/gspca_sn9c20x.ko drivers/media/usb/gspca/gspca_sn9c20x.o drivers/media/usb/gspca/gspca_sn9c20x.mod.o .module-common.o

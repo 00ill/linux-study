@@ -1,1 +1,0 @@
-savedcmd_drivers/media/usb/b2c2/b2c2-flexcop-usb.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/usb/b2c2/b2c2-flexcop-usb.ko drivers/media/usb/b2c2/b2c2-flexcop-usb.o drivers/media/usb/b2c2/b2c2-flexcop-usb.mod.o .module-common.o

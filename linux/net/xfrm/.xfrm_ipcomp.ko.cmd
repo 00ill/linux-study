@@ -1,1 +1,0 @@
-savedcmd_net/xfrm/xfrm_ipcomp.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/xfrm/xfrm_ipcomp.ko net/xfrm/xfrm_ipcomp.o net/xfrm/xfrm_ipcomp.mod.o .module-common.o

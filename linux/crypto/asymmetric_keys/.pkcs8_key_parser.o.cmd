@@ -1,1 +1,0 @@
-savedcmd_crypto/asymmetric_keys/pkcs8_key_parser.o := ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o crypto/asymmetric_keys/pkcs8_key_parser.o @crypto/asymmetric_keys/pkcs8_key_parser.mod 

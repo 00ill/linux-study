@@ -1,1 +1,0 @@
-savedcmd_net/netfilter/xt_conntrack.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/netfilter/xt_conntrack.ko net/netfilter/xt_conntrack.o net/netfilter/xt_conntrack.mod.o .module-common.o

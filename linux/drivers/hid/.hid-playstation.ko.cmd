@@ -1,1 +1,0 @@
-savedcmd_drivers/hid/hid-playstation.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-playstation.ko drivers/hid/hid-playstation.o drivers/hid/hid-playstation.mod.o .module-common.o

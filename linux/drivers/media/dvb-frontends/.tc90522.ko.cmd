@@ -1,1 +1,0 @@
-savedcmd_drivers/media/dvb-frontends/tc90522.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/tc90522.ko drivers/media/dvb-frontends/tc90522.o drivers/media/dvb-frontends/tc90522.mod.o .module-common.o

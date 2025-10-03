@@ -1,1 +1,0 @@
-savedcmd_drivers/net/usb/aqc111.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/usb/aqc111.ko drivers/net/usb/aqc111.o drivers/net/usb/aqc111.mod.o .module-common.o

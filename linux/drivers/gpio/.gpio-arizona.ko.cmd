@@ -1,1 +1,0 @@
-savedcmd_drivers/gpio/gpio-arizona.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/gpio/gpio-arizona.ko drivers/gpio/gpio-arizona.o drivers/gpio/gpio-arizona.mod.o .module-common.o

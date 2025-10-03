@@ -1,1 +1,0 @@
-savedcmd_drivers/media/usb/gspca/gspca_konica.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/usb/gspca/gspca_konica.ko drivers/media/usb/gspca/gspca_konica.o drivers/media/usb/gspca/gspca_konica.mod.o .module-common.o

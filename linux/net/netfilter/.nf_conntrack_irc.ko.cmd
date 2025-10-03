@@ -1,1 +1,0 @@
-savedcmd_net/netfilter/nf_conntrack_irc.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/netfilter/nf_conntrack_irc.ko net/netfilter/nf_conntrack_irc.o net/netfilter/nf_conntrack_irc.mod.o .module-common.o

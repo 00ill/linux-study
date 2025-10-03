@@ -1,1 +1,0 @@
-savedcmd_drivers/gpu/drm/tiny/ili9341.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/tiny/ili9341.ko drivers/gpu/drm/tiny/ili9341.o drivers/gpu/drm/tiny/ili9341.mod.o .module-common.o

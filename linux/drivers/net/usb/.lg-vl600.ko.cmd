@@ -1,1 +1,0 @@
-savedcmd_drivers/net/usb/lg-vl600.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/usb/lg-vl600.ko drivers/net/usb/lg-vl600.o drivers/net/usb/lg-vl600.mod.o .module-common.o

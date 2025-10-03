@@ -1,1 +1,0 @@
-savedcmd_sound/soc/generic/snd-soc-simple-card-utils.o := ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o sound/soc/generic/snd-soc-simple-card-utils.o @sound/soc/generic/snd-soc-simple-card-utils.mod 

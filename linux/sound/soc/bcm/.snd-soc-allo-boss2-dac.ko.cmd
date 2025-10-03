@@ -1,1 +1,0 @@
-savedcmd_sound/soc/bcm/snd-soc-allo-boss2-dac.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/soc/bcm/snd-soc-allo-boss2-dac.ko sound/soc/bcm/snd-soc-allo-boss2-dac.o sound/soc/bcm/snd-soc-allo-boss2-dac.mod.o .module-common.o

@@ -1,1 +1,0 @@
-savedcmd_drivers/input/keyboard/tca8418_keypad.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/input/keyboard/tca8418_keypad.ko drivers/input/keyboard/tca8418_keypad.o drivers/input/keyboard/tca8418_keypad.mod.o .module-common.o

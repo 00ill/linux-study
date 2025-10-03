@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/ath/ath9k/ath9k_hw.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/ath/ath9k/ath9k_hw.ko drivers/net/wireless/ath/ath9k/ath9k_hw.o drivers/net/wireless/ath/ath9k/ath9k_hw.mod.o .module-common.o

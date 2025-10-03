@@ -1,1 +1,0 @@
-savedcmd_drivers/video/fbdev/rpisense-fb.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/video/fbdev/rpisense-fb.ko drivers/video/fbdev/rpisense-fb.o drivers/video/fbdev/rpisense-fb.mod.o .module-common.o

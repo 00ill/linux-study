@@ -1,1 +1,0 @@
-savedcmd_drivers/gpu/drm/rp1/rp1-dsi/drm-rp1-dsi.o := ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/gpu/drm/rp1/rp1-dsi/drm-rp1-dsi.o @drivers/gpu/drm/rp1/rp1-dsi/drm-rp1-dsi.mod 

@@ -1,1 +1,0 @@
-savedcmd_drivers/net/ieee802154/mrf24j40.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/ieee802154/mrf24j40.ko drivers/net/ieee802154/mrf24j40.o drivers/net/ieee802154/mrf24j40.mod.o .module-common.o

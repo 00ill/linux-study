@@ -1,1 +1,0 @@
-savedcmd_drivers/staging/fbtft/fb_hx8353d.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/staging/fbtft/fb_hx8353d.ko drivers/staging/fbtft/fb_hx8353d.o drivers/staging/fbtft/fb_hx8353d.mod.o .module-common.o

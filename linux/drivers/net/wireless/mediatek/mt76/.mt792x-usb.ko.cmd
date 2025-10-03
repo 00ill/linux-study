@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/mediatek/mt76/mt792x-usb.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/mediatek/mt76/mt792x-usb.ko drivers/net/wireless/mediatek/mt76/mt792x-usb.o drivers/net/wireless/mediatek/mt76/mt792x-usb.mod.o .module-common.o

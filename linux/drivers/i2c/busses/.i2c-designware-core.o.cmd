@@ -1,1 +1,0 @@
-savedcmd_drivers/i2c/busses/i2c-designware-core.o := ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/i2c/busses/i2c-designware-core.o @drivers/i2c/busses/i2c-designware-core.mod 

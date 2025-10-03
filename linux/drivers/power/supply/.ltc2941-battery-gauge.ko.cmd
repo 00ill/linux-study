@@ -1,1 +1,0 @@
-savedcmd_drivers/power/supply/ltc2941-battery-gauge.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/power/supply/ltc2941-battery-gauge.ko drivers/power/supply/ltc2941-battery-gauge.o drivers/power/supply/ltc2941-battery-gauge.mod.o .module-common.o

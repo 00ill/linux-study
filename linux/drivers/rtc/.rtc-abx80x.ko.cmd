@@ -1,1 +1,0 @@
-savedcmd_drivers/rtc/rtc-abx80x.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/rtc/rtc-abx80x.ko drivers/rtc/rtc-abx80x.o drivers/rtc/rtc-abx80x.mod.o .module-common.o

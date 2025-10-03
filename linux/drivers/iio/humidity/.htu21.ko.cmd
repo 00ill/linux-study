@@ -1,1 +1,0 @@
-savedcmd_drivers/iio/humidity/htu21.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/iio/humidity/htu21.ko drivers/iio/humidity/htu21.o drivers/iio/humidity/htu21.mod.o .module-common.o

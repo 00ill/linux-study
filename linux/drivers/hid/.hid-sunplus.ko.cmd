@@ -1,1 +1,0 @@
-savedcmd_drivers/hid/hid-sunplus.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-sunplus.ko drivers/hid/hid-sunplus.o drivers/hid/hid-sunplus.mod.o .module-common.o

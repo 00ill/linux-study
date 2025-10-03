@@ -1,1 +1,0 @@
-savedcmd_drivers/iio/accel/adxl355_i2c.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/iio/accel/adxl355_i2c.ko drivers/iio/accel/adxl355_i2c.o drivers/iio/accel/adxl355_i2c.mod.o .module-common.o

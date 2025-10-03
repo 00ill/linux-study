@@ -1,1 +1,0 @@
-savedcmd_drivers/net/ethernet/broadcom/modules.order := {   cat drivers/net/ethernet/broadcom/genet/modules.order;   cat drivers/net/ethernet/broadcom/asp2/modules.order; :; } > drivers/net/ethernet/broadcom/modules.order

@@ -1,1 +1,0 @@
-savedcmd_drivers/media/radio/radio-mr800.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/radio/radio-mr800.ko drivers/media/radio/radio-mr800.o drivers/media/radio/radio-mr800.mod.o .module-common.o

@@ -1,1 +1,0 @@
-savedcmd_drivers/media/common/siano/smsdvb.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/common/siano/smsdvb.ko drivers/media/common/siano/smsdvb.o drivers/media/common/siano/smsdvb.mod.o .module-common.o

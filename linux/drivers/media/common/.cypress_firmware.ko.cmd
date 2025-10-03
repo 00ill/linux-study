@@ -1,1 +1,0 @@
-savedcmd_drivers/media/common/cypress_firmware.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/common/cypress_firmware.ko drivers/media/common/cypress_firmware.o drivers/media/common/cypress_firmware.mod.o .module-common.o

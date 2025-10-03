@@ -1,1 +1,0 @@
-savedcmd_drivers/media/usb/dvb-usb/dvb-usb-cxusb.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/usb/dvb-usb/dvb-usb-cxusb.ko drivers/media/usb/dvb-usb/dvb-usb-cxusb.o drivers/media/usb/dvb-usb/dvb-usb-cxusb.mod.o .module-common.o

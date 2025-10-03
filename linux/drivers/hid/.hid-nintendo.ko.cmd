@@ -1,1 +1,0 @@
-savedcmd_drivers/hid/hid-nintendo.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-nintendo.ko drivers/hid/hid-nintendo.o drivers/hid/hid-nintendo.mod.o .module-common.o

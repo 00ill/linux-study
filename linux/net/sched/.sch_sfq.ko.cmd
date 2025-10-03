@@ -1,1 +1,0 @@
-savedcmd_net/sched/sch_sfq.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/sched/sch_sfq.ko net/sched/sch_sfq.o net/sched/sch_sfq.mod.o .module-common.o

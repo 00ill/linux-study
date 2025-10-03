@@ -1,1 +1,0 @@
-savedcmd_drivers/media/common/v4l2-tpg/v4l2-tpg.o := ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/media/common/v4l2-tpg/v4l2-tpg.o @drivers/media/common/v4l2-tpg/v4l2-tpg.mod 

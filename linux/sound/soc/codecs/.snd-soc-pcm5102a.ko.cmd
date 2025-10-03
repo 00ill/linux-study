@@ -1,1 +1,0 @@
-savedcmd_sound/soc/codecs/snd-soc-pcm5102a.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/soc/codecs/snd-soc-pcm5102a.ko sound/soc/codecs/snd-soc-pcm5102a.o sound/soc/codecs/snd-soc-pcm5102a.mod.o .module-common.o

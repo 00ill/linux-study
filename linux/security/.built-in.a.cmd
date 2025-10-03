@@ -1,1 +1,0 @@
-savedcmd_security/built-in.a := rm -f security/built-in.a;  printf "security/%s " keys/built-in.a commoncap.o lsm_syscalls.o min_addr.o security.o inode.o lsm_audit.o apparmor/built-in.a device_cgroup.o integrity/built-in.a | xargs ar cDPrST security/built-in.a

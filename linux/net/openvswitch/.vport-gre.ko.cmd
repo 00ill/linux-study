@@ -1,1 +1,0 @@
-savedcmd_net/openvswitch/vport-gre.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/openvswitch/vport-gre.ko net/openvswitch/vport-gre.o net/openvswitch/vport-gre.mod.o .module-common.o

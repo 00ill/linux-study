@@ -1,1 +1,0 @@
-savedcmd_drivers/media/radio/si4713/si4713.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/radio/si4713/si4713.ko drivers/media/radio/si4713/si4713.o drivers/media/radio/si4713/si4713.mod.o .module-common.o

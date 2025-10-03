@@ -1,1 +1,0 @@
-savedcmd_drivers/iio/common/ms_sensors/ms_sensors_i2c.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/iio/common/ms_sensors/ms_sensors_i2c.ko drivers/iio/common/ms_sensors/ms_sensors_i2c.o drivers/iio/common/ms_sensors/ms_sensors_i2c.mod.o .module-common.o

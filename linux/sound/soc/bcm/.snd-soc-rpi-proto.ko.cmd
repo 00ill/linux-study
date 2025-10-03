@@ -1,1 +1,0 @@
-savedcmd_sound/soc/bcm/snd-soc-rpi-proto.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/soc/bcm/snd-soc-rpi-proto.ko sound/soc/bcm/snd-soc-rpi-proto.o sound/soc/bcm/snd-soc-rpi-proto.mod.o .module-common.o

@@ -1,1 +1,0 @@
-savedcmd_drivers/media/dvb-frontends/drx39xyj/drx39xyj.o := ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/media/dvb-frontends/drx39xyj/drx39xyj.o @drivers/media/dvb-frontends/drx39xyj/drx39xyj.mod 

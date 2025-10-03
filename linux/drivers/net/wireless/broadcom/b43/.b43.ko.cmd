@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/broadcom/b43/b43.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/broadcom/b43/b43.ko drivers/net/wireless/broadcom/b43/b43.o drivers/net/wireless/broadcom/b43/b43.mod.o .module-common.o

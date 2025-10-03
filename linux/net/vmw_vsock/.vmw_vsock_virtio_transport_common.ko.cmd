@@ -1,1 +1,0 @@
-savedcmd_net/vmw_vsock/vmw_vsock_virtio_transport_common.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/vmw_vsock/vmw_vsock_virtio_transport_common.ko net/vmw_vsock/vmw_vsock_virtio_transport_common.o net/vmw_vsock/vmw_vsock_virtio_transport_common.mod.o .module-common.o

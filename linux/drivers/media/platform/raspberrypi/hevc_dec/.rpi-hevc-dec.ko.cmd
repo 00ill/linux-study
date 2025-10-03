@@ -1,1 +1,0 @@
-savedcmd_drivers/media/platform/raspberrypi/hevc_dec/rpi-hevc-dec.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/platform/raspberrypi/hevc_dec/rpi-hevc-dec.ko drivers/media/platform/raspberrypi/hevc_dec/rpi-hevc-dec.o drivers/media/platform/raspberrypi/hevc_dec/rpi-hevc-dec.mod.o .module-common.o

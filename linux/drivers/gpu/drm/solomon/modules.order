@@ -1,3 +1,0 @@
-drivers/gpu/drm/solomon/ssd130x.o
-drivers/gpu/drm/solomon/ssd130x-i2c.o
-drivers/gpu/drm/solomon/ssd130x-spi.o

@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/realtek/rtw89/rtw89_8922ae.o := ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/net/wireless/realtek/rtw89/rtw89_8922ae.o @drivers/net/wireless/realtek/rtw89/rtw89_8922ae.mod 

@@ -1,1 +1,0 @@
-savedcmd_drivers/media/usb/gspca/gspca_stk1135.o := ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/media/usb/gspca/gspca_stk1135.o @drivers/media/usb/gspca/gspca_stk1135.mod 

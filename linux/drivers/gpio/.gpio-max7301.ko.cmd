@@ -1,1 +1,0 @@
-savedcmd_drivers/gpio/gpio-max7301.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/gpio/gpio-max7301.ko drivers/gpio/gpio-max7301.o drivers/gpio/gpio-max7301.mod.o .module-common.o

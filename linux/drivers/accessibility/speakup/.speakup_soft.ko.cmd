@@ -1,1 +1,0 @@
-savedcmd_drivers/accessibility/speakup/speakup_soft.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/accessibility/speakup/speakup_soft.ko drivers/accessibility/speakup/speakup_soft.o drivers/accessibility/speakup/speakup_soft.mod.o .module-common.o

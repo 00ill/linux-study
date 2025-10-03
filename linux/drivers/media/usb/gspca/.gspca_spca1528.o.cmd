@@ -1,1 +1,0 @@
-savedcmd_drivers/media/usb/gspca/gspca_spca1528.o := ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/media/usb/gspca/gspca_spca1528.o @drivers/media/usb/gspca/gspca_spca1528.mod 

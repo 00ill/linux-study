@@ -1,1 +1,0 @@
-savedcmd_net/mptcp/mptcp_diag.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/mptcp/mptcp_diag.ko net/mptcp/mptcp_diag.o net/mptcp/mptcp_diag.mod.o .module-common.o

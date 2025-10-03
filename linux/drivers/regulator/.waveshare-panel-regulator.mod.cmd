@@ -1,1 +1,0 @@
-savedcmd_drivers/regulator/waveshare-panel-regulator.mod := printf '%s\n'   waveshare-panel-regulator.o | awk '!x[$$0]++ { print("drivers/regulator/"$$0) }' > drivers/regulator/waveshare-panel-regulator.mod

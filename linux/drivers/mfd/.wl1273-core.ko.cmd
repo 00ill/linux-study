@@ -1,1 +1,0 @@
-savedcmd_drivers/mfd/wl1273-core.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/mfd/wl1273-core.ko drivers/mfd/wl1273-core.o drivers/mfd/wl1273-core.mod.o .module-common.o

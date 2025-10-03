@@ -1,1 +1,0 @@
-savedcmd_crypto/async_tx/async_raid6_recov.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o crypto/async_tx/async_raid6_recov.ko crypto/async_tx/async_raid6_recov.o crypto/async_tx/async_raid6_recov.mod.o .module-common.o

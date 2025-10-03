@@ -1,1 +1,0 @@
-savedcmd_sound/soc/dwc/designware_i2s.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/soc/dwc/designware_i2s.ko sound/soc/dwc/designware_i2s.o sound/soc/dwc/designware_i2s.mod.o .module-common.o

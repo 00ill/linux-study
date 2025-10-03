@@ -1,1 +1,0 @@
-savedcmd_drivers/leds/trigger/ledtrig-pattern.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/leds/trigger/ledtrig-pattern.ko drivers/leds/trigger/ledtrig-pattern.o drivers/leds/trigger/ledtrig-pattern.mod.o .module-common.o

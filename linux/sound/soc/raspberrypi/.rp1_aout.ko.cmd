@@ -1,1 +1,0 @@
-savedcmd_sound/soc/raspberrypi/rp1_aout.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/soc/raspberrypi/rp1_aout.ko sound/soc/raspberrypi/rp1_aout.o sound/soc/raspberrypi/rp1_aout.mod.o .module-common.o

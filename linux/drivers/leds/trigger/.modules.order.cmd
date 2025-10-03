@@ -1,1 +1,0 @@
-savedcmd_drivers/leds/trigger/modules.order := {   echo drivers/leds/trigger/ledtrig-transient.o;   echo drivers/leds/trigger/ledtrig-camera.o;   echo drivers/leds/trigger/ledtrig-netdev.o;   echo drivers/leds/trigger/ledtrig-pattern.o; :; } > drivers/leds/trigger/modules.order

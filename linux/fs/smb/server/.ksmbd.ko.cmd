@@ -1,1 +1,0 @@
-savedcmd_fs/smb/server/ksmbd.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o fs/smb/server/ksmbd.ko fs/smb/server/ksmbd.o fs/smb/server/ksmbd.mod.o .module-common.o

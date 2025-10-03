@@ -1,1 +1,0 @@
-savedcmd_drivers/media/dvb-frontends/au8522_dig.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/au8522_dig.ko drivers/media/dvb-frontends/au8522_dig.o drivers/media/dvb-frontends/au8522_dig.mod.o .module-common.o

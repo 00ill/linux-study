@@ -1,1 +1,0 @@
-savedcmd_drivers/media/platform/raspberrypi/pisp_be/pisp-be.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/platform/raspberrypi/pisp_be/pisp-be.ko drivers/media/platform/raspberrypi/pisp_be/pisp-be.o drivers/media/platform/raspberrypi/pisp_be/pisp-be.mod.o .module-common.o

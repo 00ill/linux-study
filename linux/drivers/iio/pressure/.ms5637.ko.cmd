@@ -1,1 +1,0 @@
-savedcmd_drivers/iio/pressure/ms5637.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/iio/pressure/ms5637.ko drivers/iio/pressure/ms5637.o drivers/iio/pressure/ms5637.mod.o .module-common.o

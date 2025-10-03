@@ -1,1 +1,0 @@
-savedcmd_drivers/rtc/rtc-pcf8523.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/rtc/rtc-pcf8523.ko drivers/rtc/rtc-pcf8523.o drivers/rtc/rtc-pcf8523.mod.o .module-common.o

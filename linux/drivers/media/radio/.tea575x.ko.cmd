@@ -1,1 +1,0 @@
-savedcmd_drivers/media/radio/tea575x.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/radio/tea575x.ko drivers/media/radio/tea575x.o drivers/media/radio/tea575x.mod.o .module-common.o

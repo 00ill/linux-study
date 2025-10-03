@@ -1,1 +1,0 @@
-savedcmd_drivers/clk/clk-hifiberry-dachd.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/clk/clk-hifiberry-dachd.ko drivers/clk/clk-hifiberry-dachd.o drivers/clk/clk-hifiberry-dachd.mod.o .module-common.o

@@ -1,1 +1,0 @@
-savedcmd_drivers/iio/common/inv_sensors/inv_sensors_timestamp.mod := printf '%s\n'   inv_sensors_timestamp.o | awk '!x[$$0]++ { print("drivers/iio/common/inv_sensors/"$$0) }' > drivers/iio/common/inv_sensors/inv_sensors_timestamp.mod

@@ -1,1 +1,0 @@
-savedcmd_arch/arm64/crypto/sha2-ce.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o arch/arm64/crypto/sha2-ce.ko arch/arm64/crypto/sha2-ce.o arch/arm64/crypto/sha2-ce.mod.o .module-common.o

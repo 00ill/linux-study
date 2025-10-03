@@ -1,1 +1,0 @@
-savedcmd_drivers/input/keyboard/matrix_keypad.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/input/keyboard/matrix_keypad.ko drivers/input/keyboard/matrix_keypad.o drivers/input/keyboard/matrix_keypad.mod.o .module-common.o

@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/mediatek/mt76/mt76x0/mt76x0-common.o := ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/net/wireless/mediatek/mt76/mt76x0/mt76x0-common.o @drivers/net/wireless/mediatek/mt76/mt76x0/mt76x0-common.mod 

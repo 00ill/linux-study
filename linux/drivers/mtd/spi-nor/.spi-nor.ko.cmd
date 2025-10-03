@@ -1,1 +1,0 @@
-savedcmd_drivers/mtd/spi-nor/spi-nor.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/mtd/spi-nor/spi-nor.ko drivers/mtd/spi-nor/spi-nor.o drivers/mtd/spi-nor/spi-nor.mod.o .module-common.o

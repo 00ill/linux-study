@@ -1,1 +1,0 @@
-savedcmd_drivers/media/usb/gspca/gspca_sunplus.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/usb/gspca/gspca_sunplus.ko drivers/media/usb/gspca/gspca_sunplus.o drivers/media/usb/gspca/gspca_sunplus.mod.o .module-common.o

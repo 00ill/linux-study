@@ -2152,7 +2152,6 @@ __latent_entropy struct task_struct *copy_process(
 	const u64 clone_flags = args->flags;
 	struct nsproxy *nsp = current->nsproxy;
 
-	printk(KERN_INFO "Check Kernel Build");
 	/*
 	 * Don't allow sharing the root directory with processes in a different
 	 * namespace

@@ -1,1 +1,0 @@
-savedcmd_drivers/rtc/rtc-sd3078.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/rtc/rtc-sd3078.ko drivers/rtc/rtc-sd3078.o drivers/rtc/rtc-sd3078.mod.o .module-common.o

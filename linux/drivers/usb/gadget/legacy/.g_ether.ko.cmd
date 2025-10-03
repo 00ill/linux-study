@@ -1,1 +1,0 @@
-savedcmd_drivers/usb/gadget/legacy/g_ether.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/usb/gadget/legacy/g_ether.ko drivers/usb/gadget/legacy/g_ether.o drivers/usb/gadget/legacy/g_ether.mod.o .module-common.o

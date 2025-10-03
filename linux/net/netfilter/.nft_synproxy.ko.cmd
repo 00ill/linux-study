@@ -1,1 +1,0 @@
-savedcmd_net/netfilter/nft_synproxy.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/netfilter/nft_synproxy.ko net/netfilter/nft_synproxy.o net/netfilter/nft_synproxy.mod.o .module-common.o

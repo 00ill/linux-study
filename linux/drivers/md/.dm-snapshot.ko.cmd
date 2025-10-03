@@ -1,1 +1,0 @@
-savedcmd_drivers/md/dm-snapshot.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/md/dm-snapshot.ko drivers/md/dm-snapshot.o drivers/md/dm-snapshot.mod.o .module-common.o

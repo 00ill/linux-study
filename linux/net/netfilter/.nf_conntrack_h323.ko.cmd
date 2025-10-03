@@ -1,1 +1,0 @@
-savedcmd_net/netfilter/nf_conntrack_h323.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/netfilter/nf_conntrack_h323.ko net/netfilter/nf_conntrack_h323.o net/netfilter/nf_conntrack_h323.mod.o .module-common.o

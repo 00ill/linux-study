@@ -1,1 +1,0 @@
-savedcmd_drivers/hid/hid-ntrig.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-ntrig.ko drivers/hid/hid-ntrig.o drivers/hid/hid-ntrig.mod.o .module-common.o

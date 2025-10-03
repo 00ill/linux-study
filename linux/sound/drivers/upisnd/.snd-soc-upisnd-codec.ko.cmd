@@ -1,1 +1,0 @@
-savedcmd_sound/drivers/upisnd/snd-soc-upisnd-codec.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/drivers/upisnd/snd-soc-upisnd-codec.ko sound/drivers/upisnd/snd-soc-upisnd-codec.o sound/drivers/upisnd/snd-soc-upisnd-codec.mod.o .module-common.o

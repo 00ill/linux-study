@@ -1,1 +1,0 @@
-savedcmd_drivers/media/usb/dvb-usb-v2/dvb-usb-rtl28xxu.o := ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/media/usb/dvb-usb-v2/dvb-usb-rtl28xxu.o @drivers/media/usb/dvb-usb-v2/dvb-usb-rtl28xxu.mod 

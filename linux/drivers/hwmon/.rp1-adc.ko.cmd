@@ -1,1 +1,0 @@
-savedcmd_drivers/hwmon/rp1-adc.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/rp1-adc.ko drivers/hwmon/rp1-adc.o drivers/hwmon/rp1-adc.mod.o .module-common.o

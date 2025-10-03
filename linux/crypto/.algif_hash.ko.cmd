@@ -1,1 +1,0 @@
-savedcmd_crypto/algif_hash.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o crypto/algif_hash.ko crypto/algif_hash.o crypto/algif_hash.mod.o .module-common.o

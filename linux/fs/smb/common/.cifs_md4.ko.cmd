@@ -1,1 +1,0 @@
-savedcmd_fs/smb/common/cifs_md4.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o fs/smb/common/cifs_md4.ko fs/smb/common/cifs_md4.o fs/smb/common/cifs_md4.mod.o .module-common.o

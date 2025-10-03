@@ -1,1 +1,0 @@
-savedcmd_drivers/staging/fbtft/fb_pcd8544.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/staging/fbtft/fb_pcd8544.ko drivers/staging/fbtft/fb_pcd8544.o drivers/staging/fbtft/fb_pcd8544.mod.o .module-common.o

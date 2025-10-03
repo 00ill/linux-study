@@ -1,1 +1,0 @@
-savedcmd_drivers/input/misc/rotary_encoder.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/input/misc/rotary_encoder.ko drivers/input/misc/rotary_encoder.o drivers/input/misc/rotary_encoder.mod.o .module-common.o

@@ -1,1 +1,0 @@
-savedcmd_net/bridge/netfilter/ebt_redirect.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/bridge/netfilter/ebt_redirect.ko net/bridge/netfilter/ebt_redirect.o net/bridge/netfilter/ebt_redirect.mod.o .module-common.o

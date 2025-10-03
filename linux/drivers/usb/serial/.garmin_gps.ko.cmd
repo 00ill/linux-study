@@ -1,1 +1,0 @@
-savedcmd_drivers/usb/serial/garmin_gps.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/usb/serial/garmin_gps.ko drivers/usb/serial/garmin_gps.o drivers/usb/serial/garmin_gps.mod.o .module-common.o

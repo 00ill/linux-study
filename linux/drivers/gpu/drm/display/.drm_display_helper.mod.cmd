@@ -1,1 +1,0 @@
-savedcmd_drivers/gpu/drm/display/drm_display_helper.mod := printf '%s\n'   drm_display_helper_mod.o drm_hdmi_helper.o drm_scdc_helper.o drm_hdmi_state_helper.o | awk '!x[$$0]++ { print("drivers/gpu/drm/display/"$$0) }' > drivers/gpu/drm/display/drm_display_helper.mod

@@ -1,1 +1,0 @@
-savedcmd_drivers/media/i2c/ov9282.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/i2c/ov9282.ko drivers/media/i2c/ov9282.o drivers/media/i2c/ov9282.mod.o .module-common.o

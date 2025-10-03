@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/realtek/rtlwifi/rtl_usb.o := ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/net/wireless/realtek/rtlwifi/rtl_usb.o @drivers/net/wireless/realtek/rtlwifi/rtl_usb.mod 

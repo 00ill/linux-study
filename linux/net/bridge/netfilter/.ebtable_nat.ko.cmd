@@ -1,1 +1,0 @@
-savedcmd_net/bridge/netfilter/ebtable_nat.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/bridge/netfilter/ebtable_nat.ko net/bridge/netfilter/ebtable_nat.o net/bridge/netfilter/ebtable_nat.mod.o .module-common.o

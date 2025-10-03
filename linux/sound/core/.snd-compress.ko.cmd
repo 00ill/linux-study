@@ -1,1 +1,0 @@
-savedcmd_sound/core/snd-compress.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/core/snd-compress.ko sound/core/snd-compress.o sound/core/snd-compress.mod.o .module-common.o

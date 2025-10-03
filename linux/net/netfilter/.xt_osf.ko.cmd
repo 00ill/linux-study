@@ -1,1 +1,0 @@
-savedcmd_net/netfilter/xt_osf.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/netfilter/xt_osf.ko net/netfilter/xt_osf.o net/netfilter/xt_osf.mod.o .module-common.o

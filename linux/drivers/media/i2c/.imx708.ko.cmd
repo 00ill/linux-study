@@ -1,1 +1,0 @@
-savedcmd_drivers/media/i2c/imx708.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/i2c/imx708.ko drivers/media/i2c/imx708.o drivers/media/i2c/imx708.mod.o .module-common.o

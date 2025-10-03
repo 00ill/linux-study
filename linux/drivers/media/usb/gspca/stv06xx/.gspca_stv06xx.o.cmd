@@ -1,1 +1,0 @@
-savedcmd_drivers/media/usb/gspca/stv06xx/gspca_stv06xx.o := ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/media/usb/gspca/stv06xx/gspca_stv06xx.o @drivers/media/usb/gspca/stv06xx/gspca_stv06xx.mod 

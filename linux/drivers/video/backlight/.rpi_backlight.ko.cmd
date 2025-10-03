@@ -1,1 +1,0 @@
-savedcmd_drivers/video/backlight/rpi_backlight.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/video/backlight/rpi_backlight.ko drivers/video/backlight/rpi_backlight.o drivers/video/backlight/rpi_backlight.mod.o .module-common.o

@@ -1,1 +1,0 @@
-savedcmd_drivers/media/usb/dvb-usb/dvb-usb-dtv5100.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/usb/dvb-usb/dvb-usb-dtv5100.ko drivers/media/usb/dvb-usb/dvb-usb-dtv5100.o drivers/media/usb/dvb-usb/dvb-usb-dtv5100.mod.o .module-common.o

@@ -1,1 +1,0 @@
-savedcmd_drivers/hwmon/raspberrypi-hwmon.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/raspberrypi-hwmon.ko drivers/hwmon/raspberrypi-hwmon.o drivers/hwmon/raspberrypi-hwmon.mod.o .module-common.o

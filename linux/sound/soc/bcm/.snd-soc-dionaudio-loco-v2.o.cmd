@@ -1,1 +1,0 @@
-savedcmd_sound/soc/bcm/snd-soc-dionaudio-loco-v2.o := ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o sound/soc/bcm/snd-soc-dionaudio-loco-v2.o @sound/soc/bcm/snd-soc-dionaudio-loco-v2.mod 

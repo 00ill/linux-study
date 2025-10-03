@@ -1,1 +1,0 @@
-savedcmd_drivers/hid/hid-roccat-kovaplus.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-roccat-kovaplus.ko drivers/hid/hid-roccat-kovaplus.o drivers/hid/hid-roccat-kovaplus.mod.o .module-common.o

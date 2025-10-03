@@ -1,1 +1,0 @@
-savedcmd_drivers/media/dvb-frontends/tda665x.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/tda665x.ko drivers/media/dvb-frontends/tda665x.o drivers/media/dvb-frontends/tda665x.mod.o .module-common.o

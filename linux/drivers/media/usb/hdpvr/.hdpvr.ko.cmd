@@ -1,1 +1,0 @@
-savedcmd_drivers/media/usb/hdpvr/hdpvr.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/usb/hdpvr/hdpvr.ko drivers/media/usb/hdpvr/hdpvr.o drivers/media/usb/hdpvr/hdpvr.mod.o .module-common.o

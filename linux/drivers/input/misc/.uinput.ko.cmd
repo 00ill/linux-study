@@ -1,1 +1,0 @@
-savedcmd_drivers/input/misc/uinput.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/input/misc/uinput.ko drivers/input/misc/uinput.o drivers/input/misc/uinput.mod.o .module-common.o

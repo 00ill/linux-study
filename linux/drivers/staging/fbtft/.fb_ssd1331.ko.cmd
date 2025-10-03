@@ -1,1 +1,0 @@
-savedcmd_drivers/staging/fbtft/fb_ssd1331.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/staging/fbtft/fb_ssd1331.ko drivers/staging/fbtft/fb_ssd1331.o drivers/staging/fbtft/fb_ssd1331.mod.o .module-common.o

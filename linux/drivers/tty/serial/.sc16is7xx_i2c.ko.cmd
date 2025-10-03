@@ -1,1 +1,0 @@
-savedcmd_drivers/tty/serial/sc16is7xx_i2c.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/tty/serial/sc16is7xx_i2c.ko drivers/tty/serial/sc16is7xx_i2c.o drivers/tty/serial/sc16is7xx_i2c.mod.o .module-common.o

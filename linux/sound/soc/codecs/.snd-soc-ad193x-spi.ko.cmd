@@ -1,1 +1,0 @@
-savedcmd_sound/soc/codecs/snd-soc-ad193x-spi.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/soc/codecs/snd-soc-ad193x-spi.ko sound/soc/codecs/snd-soc-ad193x-spi.o sound/soc/codecs/snd-soc-ad193x-spi.mod.o .module-common.o

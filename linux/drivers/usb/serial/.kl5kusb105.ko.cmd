@@ -1,1 +1,0 @@
-savedcmd_drivers/usb/serial/kl5kusb105.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/usb/serial/kl5kusb105.ko drivers/usb/serial/kl5kusb105.o drivers/usb/serial/kl5kusb105.mod.o .module-common.o

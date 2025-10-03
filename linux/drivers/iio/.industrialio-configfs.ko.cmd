@@ -1,1 +1,0 @@
-savedcmd_drivers/iio/industrialio-configfs.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/iio/industrialio-configfs.ko drivers/iio/industrialio-configfs.o drivers/iio/industrialio-configfs.mod.o .module-common.o

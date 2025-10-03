@@ -1,1 +1,0 @@
-savedcmd_drivers/input/touchscreen/ads7846.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/input/touchscreen/ads7846.ko drivers/input/touchscreen/ads7846.o drivers/input/touchscreen/ads7846.mod.o .module-common.o

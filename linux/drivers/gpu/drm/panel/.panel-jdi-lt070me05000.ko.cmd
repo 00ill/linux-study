@@ -1,1 +1,0 @@
-savedcmd_drivers/gpu/drm/panel/panel-jdi-lt070me05000.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/panel/panel-jdi-lt070me05000.ko drivers/gpu/drm/panel/panel-jdi-lt070me05000.o drivers/gpu/drm/panel/panel-jdi-lt070me05000.mod.o .module-common.o

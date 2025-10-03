@@ -1,1 +1,0 @@
-savedcmd_drivers/hid/hid-roccat-ryos.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-roccat-ryos.ko drivers/hid/hid-roccat-ryos.o drivers/hid/hid-roccat-ryos.mod.o .module-common.o

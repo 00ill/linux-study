@@ -1,1 +1,0 @@
-savedcmd_drivers/media/usb/gspca/gspca_nw80x.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/usb/gspca/gspca_nw80x.ko drivers/media/usb/gspca/gspca_nw80x.o drivers/media/usb/gspca/gspca_nw80x.mod.o .module-common.o

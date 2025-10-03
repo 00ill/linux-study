@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/ralink/rt2x00/rt2800usb.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/ralink/rt2x00/rt2800usb.ko drivers/net/wireless/ralink/rt2x00/rt2800usb.o drivers/net/wireless/ralink/rt2x00/rt2800usb.mod.o .module-common.o

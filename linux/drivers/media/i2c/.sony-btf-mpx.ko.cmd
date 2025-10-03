@@ -1,1 +1,0 @@
-savedcmd_drivers/media/i2c/sony-btf-mpx.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/i2c/sony-btf-mpx.ko drivers/media/i2c/sony-btf-mpx.o drivers/media/i2c/sony-btf-mpx.mod.o .module-common.o

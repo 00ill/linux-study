@@ -1,1 +1,0 @@
-savedcmd_drivers/net/dsa/built-in.a := rm -f drivers/net/dsa/built-in.a;  printf "drivers/net/dsa/%s " b53/built-in.a hirschmann/built-in.a microchip/built-in.a mv88e6xxx/built-in.a ocelot/built-in.a qca/built-in.a realtek/built-in.a sja1105/built-in.a xrs700x/built-in.a | xargs ar cDPrST drivers/net/dsa/built-in.a

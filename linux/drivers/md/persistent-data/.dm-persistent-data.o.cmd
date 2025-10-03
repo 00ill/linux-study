@@ -1,1 +1,0 @@
-savedcmd_drivers/md/persistent-data/dm-persistent-data.o := ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/md/persistent-data/dm-persistent-data.o @drivers/md/persistent-data/dm-persistent-data.mod 

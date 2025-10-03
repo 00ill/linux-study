@@ -1,1 +1,0 @@
-savedcmd_drivers/media/dvb-frontends/dib3000mb.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/dib3000mb.ko drivers/media/dvb-frontends/dib3000mb.o drivers/media/dvb-frontends/dib3000mb.mod.o .module-common.o

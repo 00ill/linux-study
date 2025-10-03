@@ -1,1 +1,0 @@
-savedcmd_drivers/hwmon/powerz.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/powerz.ko drivers/hwmon/powerz.o drivers/hwmon/powerz.mod.o .module-common.o

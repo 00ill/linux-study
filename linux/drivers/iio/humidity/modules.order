@@ -1,8 +1,0 @@
-drivers/iio/humidity/dht11.o
-drivers/iio/humidity/hdc100x.o
-drivers/iio/humidity/hdc3020.o
-drivers/iio/humidity/hts221.o
-drivers/iio/humidity/hts221_i2c.o
-drivers/iio/humidity/hts221_spi.o
-drivers/iio/humidity/htu21.o
-drivers/iio/humidity/si7020.o

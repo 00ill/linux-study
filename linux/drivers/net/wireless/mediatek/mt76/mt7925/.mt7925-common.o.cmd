@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/mediatek/mt76/mt7925/mt7925-common.o := ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/net/wireless/mediatek/mt76/mt7925/mt7925-common.o @drivers/net/wireless/mediatek/mt76/mt7925/mt7925-common.mod 

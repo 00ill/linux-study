@@ -1,1 +1,0 @@
-savedcmd_drivers/staging/fbtft/fb_uc1611.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/staging/fbtft/fb_uc1611.ko drivers/staging/fbtft/fb_uc1611.o drivers/staging/fbtft/fb_uc1611.mod.o .module-common.o

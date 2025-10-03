@@ -1,1 +1,0 @@
-savedcmd_drivers/gpu/drm/rp1/rp1-dsi/drm-rp1-dsi.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/rp1/rp1-dsi/drm-rp1-dsi.ko drivers/gpu/drm/rp1/rp1-dsi/drm-rp1-dsi.o drivers/gpu/drm/rp1/rp1-dsi/drm-rp1-dsi.mod.o .module-common.o

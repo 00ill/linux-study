@@ -1,1 +1,0 @@
-savedcmd_drivers/usb/storage/ums-isd200.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/usb/storage/ums-isd200.ko drivers/usb/storage/ums-isd200.o drivers/usb/storage/ums-isd200.mod.o .module-common.o

@@ -1,1 +1,0 @@
-savedcmd_drivers/iio/accel/adxl355_core.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/iio/accel/adxl355_core.ko drivers/iio/accel/adxl355_core.o drivers/iio/accel/adxl355_core.mod.o .module-common.o

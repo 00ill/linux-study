@@ -1,1 +1,0 @@
-savedcmd_drivers/connector/cn.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/connector/cn.ko drivers/connector/cn.o drivers/connector/cn.mod.o .module-common.o

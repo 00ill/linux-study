@@ -1,1 +1,0 @@
-savedcmd_drivers/net/hamradio/mkiss.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/hamradio/mkiss.ko drivers/net/hamradio/mkiss.o drivers/net/hamradio/mkiss.mod.o .module-common.o

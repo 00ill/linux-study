@@ -1,1 +1,0 @@
-savedcmd_drivers/mailbox/rp1-mailbox.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/mailbox/rp1-mailbox.ko drivers/mailbox/rp1-mailbox.o drivers/mailbox/rp1-mailbox.mod.o .module-common.o

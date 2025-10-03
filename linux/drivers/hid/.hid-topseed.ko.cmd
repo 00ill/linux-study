@@ -1,1 +1,0 @@
-savedcmd_drivers/hid/hid-topseed.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-topseed.ko drivers/hid/hid-topseed.o drivers/hid/hid-topseed.mod.o .module-common.o

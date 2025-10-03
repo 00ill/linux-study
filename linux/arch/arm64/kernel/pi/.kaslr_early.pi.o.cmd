@@ -1,1 +1,0 @@
-savedcmd_arch/arm64/kernel/pi/kaslr_early.pi.o := objcopy --prefix-symbols=__pi_ --remove-section=.note.gnu.property  arch/arm64/kernel/pi/kaslr_early.o arch/arm64/kernel/pi/kaslr_early.pi.o && arch/arm64/kernel/pi/relacheck arch/arm64/kernel/pi/kaslr_early.pi.o arch/arm64/kernel/pi/kaslr_early.o

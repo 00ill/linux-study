@@ -1,1 +1,0 @@
-savedcmd_drivers/gpu/drm/panel/panel-tdo-y17p.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/panel/panel-tdo-y17p.ko drivers/gpu/drm/panel/panel-tdo-y17p.o drivers/gpu/drm/panel/panel-tdo-y17p.mod.o .module-common.o

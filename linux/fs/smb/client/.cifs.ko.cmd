@@ -1,1 +1,0 @@
-savedcmd_fs/smb/client/cifs.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o fs/smb/client/cifs.ko fs/smb/client/cifs.o fs/smb/client/cifs.mod.o .module-common.o

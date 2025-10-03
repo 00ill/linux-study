@@ -1,1 +1,0 @@
-savedcmd_drivers/input/touchscreen/iqs5xx.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/input/touchscreen/iqs5xx.ko drivers/input/touchscreen/iqs5xx.o drivers/input/touchscreen/iqs5xx.mod.o .module-common.o

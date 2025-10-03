@@ -1,1 +1,0 @@
-savedcmd_drivers/media/platform/raspberrypi/hevc_dec/rpi-hevc-dec.mod := printf '%s\n'   hevc_d.o hevc_d_video.o hevc_d_hw.o hevc_d_h265.o | awk '!x[$$0]++ { print("drivers/media/platform/raspberrypi/hevc_dec/"$$0) }' > drivers/media/platform/raspberrypi/hevc_dec/rpi-hevc-dec.mod

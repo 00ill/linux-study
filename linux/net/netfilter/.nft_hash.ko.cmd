@@ -1,1 +1,0 @@
-savedcmd_net/netfilter/nft_hash.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/netfilter/nft_hash.ko net/netfilter/nft_hash.o net/netfilter/nft_hash.mod.o .module-common.o

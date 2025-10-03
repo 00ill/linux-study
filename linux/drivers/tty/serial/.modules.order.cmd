@@ -1,1 +1,0 @@
-savedcmd_drivers/tty/serial/modules.order := {   cat drivers/tty/serial/8250/modules.order;   echo drivers/tty/serial/sc16is7xx.o;   echo drivers/tty/serial/sc16is7xx_spi.o;   echo drivers/tty/serial/sc16is7xx_i2c.o; :; } > drivers/tty/serial/modules.order

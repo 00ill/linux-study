@@ -1,1 +1,0 @@
-savedcmd_drivers/misc/ws2812-pio-rp1.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/misc/ws2812-pio-rp1.ko drivers/misc/ws2812-pio-rp1.o drivers/misc/ws2812-pio-rp1.mod.o .module-common.o

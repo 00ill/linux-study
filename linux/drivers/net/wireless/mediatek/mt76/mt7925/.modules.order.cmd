@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/mediatek/mt76/mt7925/modules.order := {   echo drivers/net/wireless/mediatek/mt76/mt7925/mt7925-common.o;   echo drivers/net/wireless/mediatek/mt76/mt7925/mt7925u.o; :; } > drivers/net/wireless/mediatek/mt76/mt7925/modules.order

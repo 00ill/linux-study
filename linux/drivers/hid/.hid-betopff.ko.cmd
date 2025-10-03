@@ -1,1 +1,0 @@
-savedcmd_drivers/hid/hid-betopff.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-betopff.ko drivers/hid/hid-betopff.o drivers/hid/hid-betopff.mod.o .module-common.o

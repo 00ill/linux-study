@@ -1,1 +1,0 @@
-savedcmd_drivers/usb/storage/ums-realtek.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/usb/storage/ums-realtek.ko drivers/usb/storage/ums-realtek.o drivers/usb/storage/ums-realtek.mod.o .module-common.o

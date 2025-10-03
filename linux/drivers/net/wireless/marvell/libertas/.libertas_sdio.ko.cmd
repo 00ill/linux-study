@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/marvell/libertas/libertas_sdio.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/marvell/libertas/libertas_sdio.ko drivers/net/wireless/marvell/libertas/libertas_sdio.o drivers/net/wireless/marvell/libertas/libertas_sdio.mod.o .module-common.o

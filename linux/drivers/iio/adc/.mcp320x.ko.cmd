@@ -1,1 +1,0 @@
-savedcmd_drivers/iio/adc/mcp320x.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/iio/adc/mcp320x.ko drivers/iio/adc/mcp320x.o drivers/iio/adc/mcp320x.mod.o .module-common.o

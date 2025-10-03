@@ -1,1 +1,0 @@
-savedcmd_drivers/media/usb/gspca/gspca_stk014.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/usb/gspca/gspca_stk014.ko drivers/media/usb/gspca/gspca_stk014.o drivers/media/usb/gspca/gspca_stk014.mod.o .module-common.o

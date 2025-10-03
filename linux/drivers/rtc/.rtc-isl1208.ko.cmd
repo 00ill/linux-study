@@ -1,1 +1,0 @@
-savedcmd_drivers/rtc/rtc-isl1208.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/rtc/rtc-isl1208.ko drivers/rtc/rtc-isl1208.o drivers/rtc/rtc-isl1208.mod.o .module-common.o

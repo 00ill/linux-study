@@ -1,1 +1,0 @@
-savedcmd_net/netfilter/ipset/ip_set_list_set.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/netfilter/ipset/ip_set_list_set.ko net/netfilter/ipset/ip_set_list_set.o net/netfilter/ipset/ip_set_list_set.mod.o .module-common.o

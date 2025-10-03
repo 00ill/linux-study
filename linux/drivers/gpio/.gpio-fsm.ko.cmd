@@ -1,1 +1,0 @@
-savedcmd_drivers/gpio/gpio-fsm.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/gpio/gpio-fsm.ko drivers/gpio/gpio-fsm.o drivers/gpio/gpio-fsm.mod.o .module-common.o

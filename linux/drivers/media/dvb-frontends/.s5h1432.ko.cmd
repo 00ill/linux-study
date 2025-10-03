@@ -1,1 +1,0 @@
-savedcmd_drivers/media/dvb-frontends/s5h1432.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/s5h1432.ko drivers/media/dvb-frontends/s5h1432.o drivers/media/dvb-frontends/s5h1432.mod.o .module-common.o

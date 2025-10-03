@@ -1,1 +1,0 @@
-savedcmd_drivers/media/usb/gspca/gspca_mr97310a.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/usb/gspca/gspca_mr97310a.ko drivers/media/usb/gspca/gspca_mr97310a.o drivers/media/usb/gspca/gspca_mr97310a.mod.o .module-common.o

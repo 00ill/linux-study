@@ -1,1 +1,0 @@
-savedcmd_net/netfilter/nft_reject_inet.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/netfilter/nft_reject_inet.ko net/netfilter/nft_reject_inet.o net/netfilter/nft_reject_inet.mod.o .module-common.o

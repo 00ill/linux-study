@@ -1,1 +1,0 @@
-savedcmd_drivers/hid/hid-kye.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-kye.ko drivers/hid/hid-kye.o drivers/hid/hid-kye.mod.o .module-common.o

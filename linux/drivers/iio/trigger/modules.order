@@ -1,3 +1,0 @@
-drivers/iio/trigger/iio-trig-hrtimer.o
-drivers/iio/trigger/iio-trig-interrupt.o
-drivers/iio/trigger/iio-trig-sysfs.o

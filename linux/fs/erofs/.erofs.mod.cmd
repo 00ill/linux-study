@@ -1,1 +1,0 @@
-savedcmd_fs/erofs/erofs.mod := printf '%s\n'   super.o inode.o data.o namei.o dir.o sysfs.o xattr.o decompressor.o zmap.o zdata.o zutil.o decompressor_zstd.o fileio.o | awk '!x[$$0]++ { print("fs/erofs/"$$0) }' > fs/erofs/erofs.mod

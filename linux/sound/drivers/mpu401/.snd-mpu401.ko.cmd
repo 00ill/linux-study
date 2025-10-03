@@ -1,1 +1,0 @@
-savedcmd_sound/drivers/mpu401/snd-mpu401.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/drivers/mpu401/snd-mpu401.ko sound/drivers/mpu401/snd-mpu401.o sound/drivers/mpu401/snd-mpu401.mod.o .module-common.o

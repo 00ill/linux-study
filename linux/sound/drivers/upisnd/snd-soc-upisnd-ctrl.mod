@@ -1,9 +1,0 @@
-sound/drivers/upisnd/upisnd_module.o
-sound/drivers/upisnd/upisnd_ctrl.o
-sound/drivers/upisnd/upisnd_comm.o
-sound/drivers/upisnd/upisnd_sound.o
-sound/drivers/upisnd/upisnd_midi.o
-sound/drivers/upisnd/upisnd_pins.o
-sound/drivers/upisnd/upisnd_gpio.o
-sound/drivers/upisnd/upisnd_sysfs.o
-sound/drivers/upisnd/upisnd_utils.o

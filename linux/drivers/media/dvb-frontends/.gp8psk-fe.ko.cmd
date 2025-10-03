@@ -1,1 +1,0 @@
-savedcmd_drivers/media/dvb-frontends/gp8psk-fe.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/gp8psk-fe.ko drivers/media/dvb-frontends/gp8psk-fe.o drivers/media/dvb-frontends/gp8psk-fe.mod.o .module-common.o

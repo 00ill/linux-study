@@ -1,1 +1,0 @@
-savedcmd_drivers/rtc/rtc-s35390a.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/rtc/rtc-s35390a.ko drivers/rtc/rtc-s35390a.o drivers/rtc/rtc-s35390a.mod.o .module-common.o

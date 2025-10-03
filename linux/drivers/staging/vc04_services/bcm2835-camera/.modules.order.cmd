@@ -1,1 +1,0 @@
-savedcmd_drivers/staging/vc04_services/bcm2835-camera/modules.order := {   echo drivers/staging/vc04_services/bcm2835-camera/bcm2835-v4l2.o; :; } > drivers/staging/vc04_services/bcm2835-camera/modules.order

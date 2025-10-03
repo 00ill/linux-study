@@ -1,1 +1,0 @@
-savedcmd_drivers/net/wireless/broadcom/b43legacy/b43legacy.o := ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/net/wireless/broadcom/b43legacy/b43legacy.o @drivers/net/wireless/broadcom/b43legacy/b43legacy.mod 
