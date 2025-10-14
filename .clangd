@@ -1,2 +1,2 @@
 CompileFlags:
-  Add: [-I/usr/lib/modules/6.16.7-arch1-1/build/include]
+  Add: [-I/usr/lib/modules/6.17.1-arch1-1/build/include]
