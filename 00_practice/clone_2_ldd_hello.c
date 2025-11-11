@@ -18,12 +18,27 @@ int hello_release(struct inode* inode, struct file* file)
     return 0;
 }
 
+static ssize_t hello_read(struct file *file, char __user *buf, size_t count, loff_t *ppos)
+{
+    char msg[] = "Hello, Kernel!\n";
+    size_t len = sizeof(msg);
+    if (*ppos >= len)
+        return 0;
+    if (count > len - *ppos)
+        count = len - *ppos;
+    if (copy_to_user(buf, msg + *ppos, count))
+        return -EFAULT;
+    *ppos += count;
+    printk(KERN_INFO "myhello: read %zu bytes\n", count);
+    return count;
+}
 
 static file_operation fo =
 {
     .owner = THIS_MODULE,
     .open = hello_open,
-    .release = hello_release
+    .release = hello_release,
+    .read = hello_read
 };
 
 
