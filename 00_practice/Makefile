@@ -1,4 +1,4 @@
-obj-m += ldd_hello.o
+obj-m += clone_2_ldd_hello.o
 
 all:
 	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules

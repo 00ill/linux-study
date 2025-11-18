@@ -5,6 +5,50 @@
 #include "linux/cdev.h"
 #include "linux/types.h"
 #include "linux/device.h"
+#include "linux/ioctl.h"
+
+#define HELLO_MAGIC 'k'
+#define HELLO_IOCTL_RESET    _IO(HELLO_MAGIC, 1)
+#define HELLO_IOCTL_SET_MSG  _IOW(HELLO_MAGIC, 2, char *)
+#define HELLO_IOCTL_GET_MSG  _IOR(HELLO_MAGIC, 3, char *)
+
+#define MAX_IOCTL_MSG_SIZE 128
+static char kernel_msg[MAX_IOCTL_MSG_SIZE] = "Initial kernel message!\n";
+
+static long hello_ioctl(struct file *file, unsigned int cmd, unsigned long arg)
+{
+    char tmp_msg[MAX_IOCTL_MSG_SIZE];
+
+    switch (cmd) {
+    case HELLO_IOCTL_RESET:
+        printk(KERN_INFO "hello: ioctl - RESET\n");
+        // Reset any state if needed
+        break;
+
+    case HELLO_IOCTL_SET_MSG:
+        printk(KERN_INFO "hello: ioctl - SET_MSG\n");
+        if (copy_from_user(tmp_msg, (char __user *)arg, MAX_IOCTL_MSG_SIZE)) {
+            return -EFAULT;
+        }
+        strncpy(kernel_msg, tmp_msg, MAX_IOCTL_MSG_SIZE);
+        kernel_msg[MAX_IOCTL_MSG_SIZE - 1] = 0; // Ensure null termination
+        printk(KERN_INFO "hello: received message from user: %s\n", kernel_msg);
+        break;
+
+    case HELLO_IOCTL_GET_MSG:
+        printk(KERN_INFO "hello: ioctl - GET_MSG\n");
+        if (copy_to_user((char __user *)arg, kernel_msg, MAX_IOCTL_MSG_SIZE)) {
+            return -EFAULT;
+        }
+        break;
+
+    default: 
+        return -ENOTTY; // Command not found
+    }
+
+    return 0;
+}
+
 
 int hello_open(struct inode* inode, struct file* file)
 {
@@ -39,6 +83,7 @@ static file_operation fo =
     .open = hello_open,
     .release = hello_release,
     .read = hello_read
+    .unlocked_ioctl = hello_ioctl,
 };
 
 
